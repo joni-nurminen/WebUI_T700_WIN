@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Cam</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<body>
+  <video id="video" autoplay="true" controls="controls" type='application/x-mpegURL'></video>
+  <script>
+    if (Hls.isSupported()) 
+	{
+      var video = document.getElementById('video');
+      var hls = new Hls();
+      // bind them together
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, function () 
+	  {
+        console.log("video and hls.js are now bound together !");
+        hls.loadSource("http://10.2.213.90/test/playlist.m3u8");
+        hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+        });
+      });
+    }
+  </script>
+  
+  <video id="video2" src="http://10.2.213.90:8080/"  autoplay="true" controls="controls"  width="704" height="480"></video>
+  
+  <OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"
+	codebase="http://downloads.videolan.org/pub/video ... /axvlc.cab"
+	id="vlc" events="True">
+	<param name="Src" value="rtsp://admin:HikVision2021@10.2.213.80:554/Streaming/Channels/101/" /> (hikvision IP cam)
+	<param name="ShowDisplay" value="True" />
+	<param name="AutoLoop" value="False" />
+	<param name="AutoPlay" value="True" />
+	</OBJECT>
+	
+	== Embedding the VLC plugin in your webpage  ==
+
+The VLC plugin can be directly embedded in your webpage : 
+
+ <embed type="application/x-vlc-plugin" name="player" autoplay="no" loop="no" target="udp:@239.255.12.42" />
+
+You then have to use the official Mozilla/ActiveX api documented here : http://wiki.videolan.org/Documentation:WebPlugin
+
+
+But, if you need '''controls''' (buttons, slidebar...), you have to use the '''open source revolunet VLCcontrols''' library.
+
+* the code resides @github : https://github.com/revolunet/VLCcontrols
+* you have some demo here : http://revolunet.github.com/VLCcontrols
+
+Usage exemple : 
+
+    <!-- include jquery + source -->
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+    <script language="javascript" src="http://revolunet.github.com/VLCcontrols/src/jquery-vlc.js"></script> 
+    <link rel="stylesheet" type="text/css" href="http://revolunet.github.com/VLCcontrols/src/styles.css" /> 
+    <!-- embed the player and play a file -->
+    <script language="javascript">
+        var player = VLCobject.embedPlayer('vlc1', 400, 300);
+        player.play('http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi');
+    </script>
+
+Note the fullscreen is currently broken in VLC plugin itself (VLC>1.1)
+
+</body>
+</html>

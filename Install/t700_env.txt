@@ -1,0 +1,5 @@
+HTTPD_USER=apache
+HTTPD_GROUP=apache
+T700_ROOT=/var/www/html
+T700_DATABASE=t700
+T700_INIT_DATABASE=/var/www/html/lib/Database/defaults/blank_database.sql

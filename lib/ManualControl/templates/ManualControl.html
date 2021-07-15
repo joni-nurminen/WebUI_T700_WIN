@@ -1,0 +1,71 @@
+<div class="${baseClass}">
+<div id="maindiv_manualcontrol">
+	<table id="maindiv_manualcontrol_table" border ="0">
+	<tr>
+	<td>
+		<div class="draglistarea_orange" >
+			<h3>${manual_control}</h3>
+				<div class="container"> 
+
+				<table border="0" style="width:100%">
+				<tr>
+				<td style="border-right: 2px solid #ccc;">
+				<table border="0" cellpadding="5">
+					<tr>
+						<td><div class="manualcontrol_button" id="FrostBlowout" data-dojo-attach-point="FrostBlowout"><span>${frost_blowout}</span></div></td>
+						<td><div class="manualcontrol_button" id="FloorWash" data-dojo-attach-point="FloorWash"><span>${floor_wash}</span></div></td>
+						<td><div class="manualcontrol_button" id="StartPump" data-dojo-attach-point="StartPump"><span>${start_pump}</span></div></td>
+					</tr>	
+					<tr>
+						<td><div class="manualcontrol_button" id="DriveIn" data-dojo-attach-point="DriveIn"><span>${drive_in}</span></div></td>
+						<td><div class="manualcontrol_button" id="DriveOut" data-dojo-attach-point="DriveOut"><span>${drive_out}</span></div></td>
+						<td><div class="manualcontrol_button" id="Maintenance" data-dojo-attach-point="Maintenance"><span>${maintenance}</span></div></td>
+					</tr>
+				</table>
+				<hr></hr>
+				<table border="0" cellpadding="5">
+					<tr>
+						<tr><td>
+						<div class="manualcontrol_button" ontouchstart="mousedownfunc('brushUpCounter')" ontouchend="mouseupfunc('brushUpCounter')" onmousedown="mousedownfunc('brushUpCounter')" onmouseup="mouseupfunc('brushUpCounter')" onmouseout="mouseupfunc('brushUpCounter')" id="RoofBrushUp" data-dojo-attach-point="RoofBrushUp"><span>${roof_brush_up}</span> <span id="brushUpCounter"></span></div>
+						</td>
+						<td>
+						<div class="manualcontrol_button" ontouchstart="mousedownfunc('nozzleUpCounter')" ontouchend="mouseupfunc('nozzleUpCounter')" onmousedown="mousedownfunc('nozzleUpCounter')" onmouseup="mouseupfunc('nozzleUpCounter')" onmouseout="mouseupfunc('nozzleUpCounter')" id="RoofNozzleUp" data-dojo-attach-point="RoofNozzleUp"><span>${roof_nozzle_up}</span> <span id="nozzleUpCounter"></span></div>
+						</td>
+						<td> <!-- Sivuharjat sivulle nappi, updKHu -->
+						<div class="manualcontrol_button" onmousedown="mousedownfunc('SbrushAsideCounter')" onmouseup="mouseupfunc('SbrushAsideCounter')" onmouseout="mouseupfunc('SbrushAsideCounter')" id="SbrushAside" data-dojo-attach-point="SbrushAside"><span>${side_brush_aside}</span> <span id="SbrushAsideCounter"></span></div>
+						</td></tr>
+						<tr><td>
+						<div class="manualcontrol_button" ontouchstart="mousedownfunc('brushDownCounter')" ontouchend="mouseupfunc('brushDownCounter')" onmousedown="mousedownfunc('brushDownCounter')" onmouseup="mouseupfunc('brushDownCounter')" onmouseout="mouseupfunc('brushDownCounter')" id="RoofBrushDown" data-dojo-attach-point="RoofBrushDown"><span>${roof_brush_down}</span> <span id="brushDownCounter"></span></div>
+						</td>
+						<td>
+						<div class="manualcontrol_button" ontouchstart="mousedownfunc('nozzleDownCounter')" ontouchend="mouseupfunc('nozzleDownCounter')" onmousedown="mousedownfunc('nozzleDownCounter')" onmouseup="mouseupfunc('nozzleDownCounter')" onmouseout="mouseupfunc('nozzleDownCounter')" id="RoofNozzleDown" data-dojo-attach-point="RoofNozzleDown"><span>${roof_nozzle_down}</span> <span id="nozzleDownCounter"></span></div>
+						</td></tr>
+					</tr>	
+				</table>
+				<hr></hr>
+				<table border="0" cellpadding="5">
+					<tr><td><div class="manualcontrol_button" ontouchstart="mousedownfunc('GantryBackwardCounter')" ontouchend="mouseupfunc('GantryBackwardCounter')" onmousedown="mousedownfunc('GantryBackwardCounter')"  onmouseup="mouseupfunc('GantryBackwardCounter')" onmouseout="mouseupfunc('GantryBackwardCounter')" id="GantryBackward" data-dojo-attach-point="GantryBackward" ><span>${gantry_backward}</span> <span id="GantryBackwardCounter"></span></div></td></tr>
+					<tr><td><div class="manualcontrol_button" ontouchstart="mousedownfunc('GantryForwardCounter')" ontouchend="mouseupfunc('GantryForwardCounter')" onmousedown="mousedownfunc('GantryForwardCounter')"  onmouseup="mouseupfunc('GantryForwardCounter')" onmouseout="mouseupfunc('GantryForwardCounter')" id="GantryForward" data-dojo-attach-point="GantryForward"><span>${gantry_forward}</span> <span id="GantryForwardCounter"></span></div></tr>
+				</table>
+				<hr></hr>
+				<table border="0" cellpadding="5">
+					<tr><td><div class="manualcontrol_button_red" id="Reset" data-dojo-attach-point="Reset"><span>${reset}</span></div></td><td><div class="manualcontrol_button_red" id="Reboot" data-dojo-attach-point="Reboot"><span>${reboot}</span></div></td><td><div class="manualcontrol_button_red" id="ShutDown" data-dojo-attach-point="ShutDown"><span>${shutdown}</span></div></td></tr>
+				</table>
+				<br/>
+				</td>
+				<td style="width:100%; vertical-align: top;">
+					<!-- <div id="videoarea" style="background-image: url('../lib/css/images/camera_off.png'); background-repeat: no-repeat; height:525px; width:700px; background-position: center;"> -->
+						<video id="video" autoplay="true" controls="controls" style="background-image: url('../lib/css/images/camera_off.png'); background-repeat: no-repeat; height:525px; width:700px; background-position: center;"></video> 
+					<!--	<video id="video" src="http://10.2.213.90:8080/" autoplay="true" controls="controls" width="700" height="525"></video> -->
+					</div>
+				</td>
+				</tr>
+				</table>
+				</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+</div>
+</div>
+

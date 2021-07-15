@@ -1,0 +1,2220 @@
+body, html {height: 100%;}
+body
+{
+	font-size: 13px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+  	overflow-y: hidden;
+	background-image:url(../css/images/background_main.jpg);
+	color: black;
+	font-weight: bold;
+
+}
+#edit_parameters
+#edit_parameters
+{
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 30px;
+	height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(178,198,255,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(168,191,255,0.4);
+}
+
+/* upper menu */
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.dijitbelow-altArrowButton.tabStripButton-top.dijitAlignRight.dijitTab.tabStripButton,
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.tabStripButton-top.dijitAlignRight.dijitTab.tabStripButton,
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.tabStripButton-top.dijitAlignLeft.dijitTab.tabStripButton
+{
+	height: 30px !important;
+
+}
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.tabStripButton-top.dijitAlignRight.dijitTab.tabStripButton
+{
+   left: 1121px !important;
+}
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.tabStripButton-top.dijitAlignLeft.dijitTab.tabStripButton
+{
+   left: 1098px !important;
+}
+.dijitTabListWrapper.dijitTabContainerTopNone.dijitAlignClient
+{
+  left: 38px !important;
+}
+.dijitTabInnerDiv.dijitTabContent.dijitButtonContents.dijitbelow-altArrowButton.tabStripButton-top.dijitAlignRight.dijitTab.tabStripButton
+{
+ left: 0px !important;
+}
+.dijitTabListContainer-top.dijitTabController.dijitScrollingTabController.tabStrip-disabled.dijitAlignTop.dijitLayoutContainer
+{
+	height: 48px !important;
+}
+
+
+button
+{
+	border: 1px solid #759dc0;
+	padding: 2px 4px 4px 4px;
+	color: #000000;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	background-color: #bcd8f4;
+	background-image: url("form/images/buttonEnabled.png");
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(#ffffff 0px, rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.75) 100%);
+	background-image: -webkit-linear-gradient(#ffffff 0px, rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.75) 100%);
+	background-image: -o-linear-gradient(#ffffff 0px, rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.75) 100%);
+	background-image: -ms-linear-gradient(#ffffff 0px, rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0.75) 100%);
+	_background-image: none;
+
+	width: 175px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(221, 194, 84);
+	cursor: pointer;
+}
+button:hover
+{
+	border: 1px solid gray;
+	background-color: #86bdf2;
+    color: #000000;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+input.dijitReset.dijitInputField.dijitSpinnerButtonInner
+{
+	height: 50px;
+}
+
+.dijitReset.dijitButtonNode.dijitSpinnerButtonContainer
+{
+	width: 32px;
+	height: 70px;
+}
+.claro .dijitSpinner .dijitArrowButtonInner
+{
+	width: 32px;
+}
+.dijit.dijitReset.dijitInline.dijitLeft.dijitTextBox.dijitSpinner.dijitValidationTextBox
+{
+	width: 70px !important;
+}
+.claro .dijitTabContainerTop-tabs .dijitTab
+{
+	min-width: 0px;
+}
+
+#maindiv_editparameters .dijit.dijitReset.dijitInline.dijitLeft.dijitTextBox.dijitSpinner.dijitValidationTextBox
+{
+	width: 100px !important;
+	height: 70px !important;
+}
+.dgrid-content.ui-widget-content
+{
+	/*width: 98% !important;*/
+	width: auto !important;
+}
+.claro .dijitSpinner .dijitArrowButtonInner
+{
+	margin: 0px 0 0px 7px !important;
+	border: none
+}
+body.claro
+{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto ;
+}
+.claro .dijitTabContainerTop-dijitContentPane,
+.claro .dijitTabContainerLeft-dijitContentPane,
+.claro .dijitTabContainerBottom-dijitContentPane,
+.claro .dijitTabContainerRight-dijitContentPane,
+.claro .dijitAccordionContainer-dijitContentPane,
+.claro .dijitTabPaneWrapper
+{
+	background-color: transparent;
+}
+div.dijitTabPaneWrapper.dijitTabContainerLeft-container.dijitAlignClient
+{
+	background-color: transparent;
+	border-right: 4px solid #ccc;
+	border: none;
+}
+#top_tabs .dijitTabInner.dijitTabContent.dijitTab.dijitTabChecked.dijitChecked,
+#top_tabs .dijitTabInner.dijitTabContent.dijitTab
+{
+	/*width: 70px; */
+	vertical-align: baseline;
+}
+div.dijitContentPane.dijitTabPane.dijitTabContainerLeft-child.dijitTabContainerLeft-dijitContentPane.dijitVisible
+{
+	background-color: transparent;
+}
+
+.claro .dijitTabPaneWrapper,
+.claro .dijitTabContainerTop-tabs,
+.claro .dijitTabContainerBottom-tabs,
+.claro .dijitTabContainerLeft-tabs,
+.claro .dijitTabContainerRight-tabs
+{
+  /* todo: add common class name for this div */
+
+  border:  none;
+}
+/*
+#widget_lang_selection div.dijit.dijitReset.dijitInline.dijitLeft.dijitTextBox.dijitComboBox.dijitValidationTextBox
+{
+	float: right;
+	margin-top: 0px;
+	width: 50px;
+}
+*/
+#grid_user_information
+{
+	width: 100%;
+	height: 150px;
+}
+.shared_mem_ok, .cw_ok, .ifsf_ok
+{
+	background-image: url(../css/images/button_green.png);
+	background-repeat:no-repeat;
+	/* float: right; */
+    /*margin-top: -22px;*/
+    /* margin-right: 80px; */
+    /* margin-left: 60px; */
+}
+.shared_mem_ok_text, .cw_ok_text, .ifsf_ok_text
+{
+  /* float: right; */
+ /* margin-top: -25px;*/
+  /* margin-right: 115px; */
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.status_text
+{
+	float: right;
+	color: blue;
+	margin-top: -75px;
+	margin-right: 115px;
+	font-size: 12px;
+}
+.status_text_err
+{
+	float: right;
+	color: red;
+	margin-top: -75px;
+	margin-right: 115px;
+	font-size: 12px;
+}
+#widget_lang_selection
+{
+	margin-top: 0px;
+	float: right;
+	width: 80px;
+}
+.image_area
+{
+	width: 400px;
+	height: 150px;
+	background-repeat: no-repeat;
+}
+.scanner_image
+{
+	width: 200px;
+	height: 150px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.scanner_image2
+{
+	width: 400px;
+	height: 150px;
+	float: right;
+	background-repeat: no-repeat;
+}
+
+#maindiv_startwashing,
+#maindiv_debugiodata,
+#maindiv_editprograms,
+#maindiv_statistics,
+#maindiv_editmachinesetup,
+#maindiv_manualcontrol,
+#maindiv_onlinestatus,
+#maindiv_operationlog,
+#maindiv_diagnostics,
+#maindiv_editparameters,
+#maindiv_documents,
+#maindiv_ifsfconfig,
+#debug_io
+{
+	width: 100%;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	/*	margin-left: 50px; */
+	background-color: transparent;
+	font-size: 13px;
+}
+#debug_io
+{
+	margin-top: 8px;
+	background-color: white;
+}
+
+#maindiv_statistics_table,
+#maindiv_editprograms_table,
+#maindiv_diagnostics_table,
+#maindiv_onlinestatus_table,
+#maindiv_debugiodata_table,
+#maindiv_operationlog_table,
+#maindiv_editparameters_table,
+#maindiv_startwashing_table,
+#maindiv_documents_table,
+#maindiv_editmachinesetup_table,
+#maindiv_ifsfconfig_table,
+#maindiv_manualcontrol_table
+{
+	width: 100%;
+}
+
+#maindiv_login
+{
+	width: 100%;
+}
+#maindiv_login_table
+{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.redButton {
+
+  background-image: url(../css/images/button_gray.png);
+  background-color: transparent;
+/*  background: -webkit-gradient(linear, left top, left bottom, from(#D3656D), to(#BC1320), color-stop(0.5, #C9404B), color-stop(0.5, #BC1421)); */pdf_wiever
+  height: 40px;
+  width: 41px;
+  border: none;
+}
+.redButtonSelected {
+
+  background-image: url(../css/images/button_green.png);
+  background-color: transparent;
+ /* background: -webkit-gradient(linear, left top, left bottom, from(#AF333C), to(#880E17), color-stop(0.5, #952B33), color-stop(0.5, #870F18)); */
+  height: 40px;
+  width: 41px;
+  border: none;
+}
+
+.pageOverlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+    display: block;
+}
+#loadingOverlay
+{
+    background-image: url(../css/images/loading-x.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#header
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	height: 80px;
+	margin-bottom: 15px;
+}
+#header .header_image
+{
+	background-image:url('../css/images/Tammermatic.png');
+ 	width: 525px;
+	height: 80px;
+/*	float: left; */
+	margin-left: auto;
+	margin-right: auto;
+}
+#header .header_image_text
+{
+	font-weight: bold;
+	margin-left: 678px;
+	color: #ef7f00;
+	font-size: 20px;
+	margin-top: -24px;
+	font-family: -webkit-pictograph;
+}
+#header .header_status
+{
+	width: 300px;
+	height: 70px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	overflow: auto;
+	color: black;
+	background-color: #e6f5fc;
+	padding: 5px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	display: none;
+}
+#statuslights
+{
+	top: 0px;
+	position: absolute;
+}
+.loadingMessage {
+    padding: 25px 40px;
+    color: #999;
+}
+
+.tabLabel {
+/*  width: 125px; */
+  height: 15px;
+  text-align: left;
+  padding-top: 4px;
+/*  padding-bottom: 12px; */
+  padding-left: 6px;
+  font-weight:normal;
+  color: black;
+  white-space: normal;
+  font-size: 16px;
+}
+.dijitTab{
+  border: 1px solid #cccccc;
+  border-style: outset;
+  background: #eeeeee;
+  border: none;
+  vertical-align: bottom;
+
+}
+div.dijitTabInner.dijitTabContent.dijitTab
+{
+	margin-bottom: 5px;
+ 	border-top-left-radius: 25px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 25px;
+	background-color: transparent;
+}
+#top_tabs div.dijitTabInner.dijitTabContent.dijitTab, #pageTabContainer div.dijitTabInner.dijitTabContent.dijitTab
+{
+	background-color: #ef8200;
+	margin-bottom: 0px;
+ 	border-top-left-radius: 25px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 25px;
+}
+
+div.dijitTabInner.dijitTabContent.dijitTab.dijitChecked
+{
+	background-color: #ef8200;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#top_tabs div.dijitTabInner.dijitTabContent.dijitTab.dijitChecked, #pageTabContainer div.dijitTabInner.dijitTabContent.dijitTab.dijitChecked
+{
+	background-color: #ef8200;
+	/*border-top-left-radius: 25px;
+	border-top-right-radius: 25px;*/
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+ #pageTabContainer div.dijitTabInner.dijitTabContent.dijitTab
+{
+	background-color: #78b700;
+	height: 32px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+#top_tabs div.dijitTabInner.dijitTabContent.dijitTab
+{
+	background-color: orange;
+	height: 32px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+#top_tabs_tablist div.dijitTabListWrapper.dijitTabContainerTopNone.dijitAlignClient
+{
+	height: 34px !important;
+}
+.dijitTab :hover
+{
+	color: blue;
+}
+
+.dijitTabContainerLeft-tabs
+{
+	margin-right: 0px;
+	border: none;
+}
+.dijitTabPaneWrapper
+{
+	border: 1px solid #cccccc;
+  	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	  border: none;
+
+}
+/* menus ends*/
+
+#washingProgress {
+  width:300px;
+}
+
+
+/* drag and drop */
+#draglist
+{
+	text-align: center;
+/*	margin-left: 20px; */
+	margin-right: auto;
+
+}
+
+.container
+{
+	border: 5px solid #ccc;
+	padding: 5px 5px 10px 5px;
+	cursor: default;
+	background: #fff;
+/*	width: 200px; */
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	overflow: hidden;
+	width: auto;
+/*	max-height: 660px; */
+}
+
+.dojoDndContainerOver
+{
+
+	border: 5px solid #aaa;
+}
+
+#maindiv_editprograms .wash_program_area_green .container .grid_wash_program,
+#maindiv_startwashing .start_washing_area_orange .container .grid_start_washing
+{
+	width: 100%;
+	font-size: 13px;
+}
+#maindiv_editprograms .draglistarea_blue .container .grid_sideprogram
+{
+	width: 100%;
+	font-size: 13px;
+}
+#maindiv_editprograms .grid_sideprogram .field-SideProgram
+{
+	text-align: center;
+	font-size: 13px;
+}
+#maindiv_editprograms .draglistarea_orange .container .grid_mainprogram
+{
+	/*width: 270px; */
+	font-size: 13px;
+	width: 100%;
+}
+
+#maindiv_editprograms .draglistarea_green .container .grid_pass_style
+{
+	width: 100%;
+	font-size: 13px;
+}
+#maindiv_startwashing .draglistarea_orange,
+#maindiv_editprograms .draglistarea_orange,
+#maindiv_statistics .draglistarea_orange,
+#maindiv_editprograms_table .draglistarea_orange,
+#maindiv_diagnostics_table .draglistarea_orange,
+#maindiv_onlinestatus_table .draglistarea_orange,
+#maindiv_operationlog .draglistarea_orange,
+#maindiv_editparameters .draglistarea_orange,
+#maindiv_onlinestatus_table .draglistarea_orange,
+#maindiv_manualcontrol_table .draglistarea_orange,
+#maindiv_editmachinesetup .draglistarea_orange,
+#maindiv_ifsfconfig .draglistarea_orange,
+#maindiv_documents .draglistarea_orange,
+#maindiv_login .draglistarea_orange,
+#maindiv_debugiodata .draglistarea_orange
+{
+	width: 100%;
+	float: left;
+	/*margin: 5px; */
+	background-image:url('../css/images/draglistbg.png');
+	background-repeat:repeat-x;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+
+}
+
+#maindiv_editprograms .draglistarea_blue
+{
+	width: 100%;
+	float: left;
+	margin: 5px;
+	background-image:url('../css/images/draglistbg_blue.png');
+	background-repeat:repeat-x;
+		border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+
+#maindiv_editprograms .draglistarea_blue_copy_program
+{
+	width: 100%;
+	float: left;
+	margin: 5px;
+	background-image:url('../css/images/draglistbg_blue.png');
+	background-repeat:repeat-x;
+		border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	visibility: hidden;
+	height: 0px;
+}
+
+#maindiv_editprograms .draglistarea_green
+{
+	width: 100%;
+	float: left;
+	margin: 5px;
+	background-image:url('../css/images/draglistbg_green.png');
+	background-repeat:repeat-x;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+#maindiv_editprograms .wash_program_area_green
+{
+	width: 100%;
+	float: left;
+	margin: 5px;
+	background-image:url('../css/images/draglistbg_green.png');
+	background-repeat:repeat-x;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+#maindiv_startwashing .start_washing_area_orange
+{
+	width: 100%;
+	float: left;
+/*	margin: 5px; */
+	background-image:url('../css/images/draglistbg.png');
+	background-repeat:repeat-x;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+}
+h3
+{
+	text-align: center;
+}
+#maindiv_onlinestatus h3
+{
+	position: absolute;
+	width: 442px;
+	text-align: center;
+	margin-left: 320px;
+}
+#dnd_div
+{
+/*	margin-left: -10px;  */
+	margin-top: 5px;
+	border: 0px solid gray;
+	width: auto;
+/*	padding: 10px; */
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	height: 300px;
+}
+
+input.dijitReset.dijitInputInner.dgrid-input
+{
+	font-size: 18px;
+	margin-top: 30%;
+}
+
+#maindiv_editprograms .dgrid
+{
+	/*width: 200px; */
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#maindiv_startwashing .dgrid-scroller
+{
+	/*width: 728px; */
+	width: 100%;
+}
+
+#maindiv_editprograms .wash_program_area_green .dgrid ,
+#maindiv_startwashing .container .dgrid ,
+#maindiv_onlinestatus .container .dgrid
+{
+	font-size: 11px;
+	border: none;
+	text-align: left;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 13px;
+
+}
+#maindiv_editprograms .sync_program
+{
+  background-image : url('../css/images/button_sync_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#maindiv_editprograms .sync_program:hover
+{
+  background-image : url('../css/images/button_sync_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#maindiv_startwashing .start_program
+{
+  background-image : url('../css/images/button_save_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#maindiv_startwashing .program_buttons, #maindiv_editprograms .program_buttons
+{
+   margin-left: auto;
+   margin-right: auto;
+   width: 830px;;
+}
+
+#maindiv_startwashing .stop_program
+{
+  background-image : url('../css/images/button_save_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#maindiv_editprograms .dgrid-cell
+{
+	text-align: center;
+	border: none;
+}
+#maindiv_editprograms .wash_program_area_green .dgrid-cell,
+#maindiv_startwashing .grid_start_washing .dgrid-cell,
+#maindiv_onlinestatus .grid_running_work .dgrid-cell
+
+{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+
+
+
+#maindiv_onlinestatus .grid_running_work .field-Cmr_MainProgram,
+#maindiv_onlinestatus .grid_running_work .field-Cmr_SideProgram1,
+#maindiv_onlinestatus .grid_running_work .field-Cmr_SideProgram2,
+#maindiv_onlinestatus .grid_running_work .field-Cmr_SideProgram3,
+#maindiv_onlinestatus .grid_running_work .field-Cmr_SideProgram4,
+#maindiv_onlinestatus .grid_running_work .field-Cmr_SideProgram5
+{
+	text-align: center;
+/*	border: 1px solid red;  */
+	width: 4%;
+}
+#maindiv_startwashing .grid_start_washing .field-Cmr_MainProgram,
+#maindiv_startwashing .grid_start_washing .field-Cmr_SideProgram1,
+#maindiv_startwashing .grid_start_washing .field-Cmr_SideProgram2,
+#maindiv_startwashing .grid_start_washing .field-Cmr_SideProgram3,
+#maindiv_startwashing .grid_start_washing .field-Cmr_SideProgram4,
+#maindiv_startwashing .grid_start_washing .field-Cmr_SideProgram5
+{
+	text-align: center;
+/*	border: 1px solid red; */
+	width: 4%;
+}
+
+
+#maindiv_editprograms .grid_wash_program .field-Cmr_MainProgram,
+#maindiv_editprograms .grid_wash_program .field-Cmr_SideProgram1,
+#maindiv_editprograms .grid_wash_program .field-Cmr_SideProgram2,
+#maindiv_editprograms .grid_wash_program .field-Cmr_SideProgram3,
+#maindiv_editprograms .grid_wash_program .field-Cmr_SideProgram4,
+#maindiv_editprograms .grid_wash_program .field-Cmr_SideProgram5
+{
+	text-align: center;
+/*	border: 1px solid red; */
+	width: 4%;
+}
+#maindiv_editprograms .grid_wash_program .field-Speed_MainProgram,
+#maindiv_startwashing .grid_start_washing .field-Speed_MainProgram,
+#maindiv_onlinestatus .grid_running_work .field-Speed_MainProgram,
+#maindiv_onlinestatus .grid_running_work .field-PassStyle,
+#maindiv_startwashing .grid_start_washing .field-PassStyle,
+#maindiv_editprograms .grid_wash_program .field-PassStyle
+{
+	text-align: center;
+	width: 5%;
+}
+#maindiv_editprograms .grid_mainprogram .field-Speed_MainProgram,
+#maindiv_editprograms .grid_mainprogram .field-Cmr_MainProgram
+{
+	text-align: center;
+	width: 26%;
+}
+#maindiv_startwashing .grid_start_washing .field-Direction,
+#maindiv_onlinestatus .grid_running_work .field-Direction,
+#maindiv_editprograms .grid_wash_program .field-Direction
+{
+	text-align: center;
+/*	border: 1px solid red; */
+	width: 6%;
+}
+#maindiv_startwashing .grid_start_washing .field-id,
+#maindiv_onlinestatus .grid_running_work .field-id,
+#maindiv_editprograms .grid_wash_program .field-id
+{
+	text-align: center;
+/*	border: 1px solid red; */
+	width: 2%;
+}
+
+
+#maindiv_editprograms .grid_wash_program .field-MainProgram,
+#maindiv_startwashing .grid_start_washing .field-MainProgram,
+#maindiv_onlinestatus .grid_running_work .field-MainProgram
+{
+	text-align: center;
+/*	border: 1px solid red; */
+	width: 12%;
+}
+#maindiv_debugiodata h2.center
+{
+	text-align: center;
+}
+#maindiv_debugiodata .grid_IO1,
+#maindiv_debugiodata .grid_IO2,
+#maindiv_debugiodata .grid_IO3,
+#maindiv_debugiodata .grid_IO4,
+#maindiv_debugiodata .grid_IO5,
+#maindiv_debugiodata .grid_IO6,
+#maindiv_debugiodata .grid_IO_main,
+#maindiv_debugiodata .grid_log
+{
+	height: 100%;
+	border: none;
+}
+#maindiv_debugiodata .grid_IO1 .dgrid-cell,
+#maindiv_debugiodata .grid_IO2 .dgrid-cell,
+#maindiv_debugiodata .grid_IO3 .dgrid-cell,
+#maindiv_debugiodata .grid_IO4 .dgrid-cell,
+#maindiv_debugiodata .grid_IO5 .dgrid-cell,
+#maindiv_debugiodata .grid_IO6 .dgrid-cell,
+#maindiv_debugiodata .grid_IO_main .dgrid-cell
+{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+#maindiv_debugiodata .grid_log  .dgrid-cell
+{
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+#maindiv_debugiodata .grid_IO1 .field-select,
+#maindiv_debugiodata .grid_IO2 .field-select,
+#maindiv_debugiodata .grid_IO3 .field-select,
+#maindiv_debugiodata .grid_IO4 .field-select,
+#maindiv_debugiodata .grid_IO5 .field-select,
+#maindiv_debugiodata .grid_IO6 .field-select,
+#maindiv_debugiodata .grid_IO_main .field-select
+{
+	width: 5%;
+
+}
+#maindiv_debugiodata .grid_IO1 .field-io,
+#maindiv_debugiodata .grid_IO2 .field-io,
+#maindiv_debugiodata .grid_IO3 .field-io,
+#maindiv_debugiodata .grid_IO4 .field-io,
+#maindiv_debugiodata .grid_IO5 .field-io,
+#maindiv_debugiodata .grid_IO6 .field-io,
+#maindiv_debugiodata .grid_IO_main .field-io
+{
+	width: 12%;
+}
+#maindiv_debugiodata .grid_IO1 .field-state,
+#maindiv_debugiodata .grid_IO2 .field-state,
+#maindiv_debugiodata .grid_IO3 .field-state,
+#maindiv_debugiodata .grid_IO4 .field-state,
+#maindiv_debugiodata .grid_IO5 .field-state,
+#maindiv_debugiodata .grid_IO6 .field-state,
+#maindiv_debugiodata .grid_IO_main .field-state
+{
+	width: 5%;
+	text-align: left;
+}
+#maindiv_onlinestatus .online_status_text
+{
+	font-weight: bold;
+}
+#maindiv_onlinestatus .online_status_text_green
+{
+	font-weight: bold;
+	color: green;
+}
+#maindiv_onlinestatus .online_status_text_red
+{
+	font-weight: bold;
+	color: red;
+}
+#maindiv_onlinestatus .online_status_text_blue
+{
+	font-weight: bold;
+	color: blue;
+}
+#maindiv_onlinestatus .online_status_text_message
+{
+	font-weight: bold;
+	color: red;
+	font-size: 24px;
+}
+
+#maindiv_statistics .grid_wash_counters, #maindiv_statistics .grid_wash_counters_maintenance
+{
+	width: 100%;
+	border: none;
+}
+#maindiv_editmachinesetup span.dijitReset.dijitInline.dijitButtonNode, #maindiv_editparameters span.dijitReset.dijitInline.dijitButtonNode
+{
+	width: 180px;
+	height: 30px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+#maindiv_debugiodata  .dgrid .dgrid-scroller,
+#maindiv_statistics .dgrid .dgrid-scroller
+{
+	position: relative;
+	overflow: hidden;
+}
+#maindiv_statistics .grid_wash_counters .dgrid-cell,#maindiv_statistics .grid_wash_counters_maintenance .dgrid-cell
+{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid lightgray;
+}
+
+#maindiv_editprograms .move_line_button
+{
+  background-image : url('../css/images/arrow_down_green.png');
+  width:50px;
+  height:210px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+#maindiv_editprograms .move_line_button:hover
+{
+  background-image : url('../css/images/arrow_down_gray.png');
+  width:50px;
+  height:210px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#maindiv_editprograms .copy_program_button
+{
+  background-image : url('../css/images/button_copy_program_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: -210px;
+
+}
+#maindiv_editprograms .copy_program_button:hover
+{
+  background-image : url('../css/images/button_copy_program_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: -210px;
+
+}
+#maindiv_editprograms .paste_program_button
+{
+  background-image : url('../css/images/button_paste_program_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+
+
+}
+#maindiv_editprograms .paste_program_button:hover
+{
+  background-image : url('../css/images/button_paste_program_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+}
+
+#maindiv_editprograms .show_copied_program_button
+{
+  background-image : url('../css/images/button_show_clipboard_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top:165px;
+}
+#maindiv_editprograms .hide_copied_program_button
+{
+  background-image : url('../css/images/button_show_clipboard_gray_pressed.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top:-50px;
+}
+
+#maindiv_editprograms .save_program, #maindiv_editparameters .set_data
+{
+  background-image : url('../css/images/button_save_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+#maindiv_editprograms .save_program:hover, #maindiv_editparameters .set_data:hover
+{
+  background-image : url('../css/images/button_save_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+#maindiv_editprograms .remove_all, #maindiv_editparameters .clear_data
+{
+  background-image : url('../css/images/button_remove_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+#maindiv_editprograms .remove_all:hover, #maindiv_editparameters .clear_data:hover
+{
+  background-image : url('../css/images/button_remove_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+#maindiv_editprograms .save_set
+{
+  background-image : url('../css/images/button_save_set_blue.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+#maindiv_editprograms .save_set:hover
+{
+  background-image : url('../css/images/button_save_set_hover_blue.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+
+#maindiv_editparameters .grid_editparameters .field-param
+{
+	width: 640px;
+}
+#maindiv_editparameters .grid_editparameters
+{
+	height: 500px;
+	border: none;
+}
+#maindiv_editparameters .grid_editparameters
+{
+	position: relative;
+	overflow: visible;
+}
+#maindiv_editprograms .remove_line
+{
+  background-image : url('../css/images/button_remove_line_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 60px;
+  margin-top: 5px;
+  float:left;
+
+}
+#maindiv_editprograms .remove_line:hover
+{
+  background-image : url('../css/images/button_remove_line_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 60px;
+  margin-top: 5px;
+  float:left;
+}
+#maindiv_editprograms .copy_line
+{
+  background-image : url('../css/images/button_copy_line_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+}
+#maindiv_editprograms .copy_line:hover
+{
+  background-image : url('../css/images/button_copy_line_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+}
+#maindiv_editprograms .paste_line
+{
+  background-image : url('../css/images/button_paste_line_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+}
+#maindiv_editprograms .paste_line_up
+{
+  background-image : url('../css/images/button_paste_line_up_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line_up:hover
+{
+  background-image : url('../css/images/button_paste_line_up_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line_mid
+{
+  background-image : url('../css/images/button_paste_line_mid_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line_mid:hover
+{
+  background-image : url('../css/images/button_paste_line_mid_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line_down
+{
+  background-image : url('../css/images/button_paste_line_down_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line_down:hover
+{
+  background-image : url('../css/images/button_paste_line_down_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  float:left;
+    margin-top: 5px;
+  background-repeat:no-repeat;
+}
+#maindiv_editprograms .paste_line:hover
+{
+  background-image : url('../css/images/button_paste_line_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+    margin-top: 5px;
+  float:left;
+}
+
+#maindiv_startwashing .dgrid-header,
+#maindiv_debugiodata .dgrid-header,
+#maindiv_editprograms .dgrid-header,
+#maindiv_statistics .dgrid-header,
+#maindiv_editmachinesetup .dgrid-header,
+#maindiv_manualcontrol .dgrid-header,
+#maindiv_onlinestatus .dgrid-header,
+#maindiv_operationlog .dgrid-header,
+#maindiv_diagnostics .dgrid-header,
+#maindiv_editparameters .dgrid-header,
+#maindiv_documents .dgrid-header
+{
+	background-color: #f9ce9b;
+	color: black;
+    width: 100%;
+}
+/*
+#maindiv_editprograms .dijitSpinner
+{
+	border-bottom-width: 0;
+	background-image: url("images/arrow.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 25px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-position: -139px center;
+	display: block;
+	margin: -1px 0 -1px 0;
+}
+*/
+
+#maindiv_editprograms .dgrid
+{
+	height: auto;
+}
+
+#maindiv_editprograms  .dgrid .dgrid-scroller
+{
+	position: relative;
+	overflow: auto;
+	/* height: 210px; */
+}
+#maindiv_editprograms .draglistarea_blue .dgrid .dgrid-scroller
+{
+	height: 210px;
+	position: relative;
+	overflow-y: auto;
+}
+#maindiv_editprograms .draglistarea_green .dgrid .dgrid-scroller
+{
+	min-height: 210px;
+	position: relative;
+	overflow: hidden;
+}
+
+#maindiv_editprograms  .wash_program_area_green .dgrid .dgrid-scroller ,
+#maindiv_startwashing  .start_washing_area_orange .dgrid .dgrid-scroller
+{
+	min-height: 110px;
+}
+
+#maindiv_editprograms .draglistarea_orange .dgrid .dgrid-scroller
+{
+	height: 210px;
+	position: relative;
+	overflow-y: scroll;
+}
+#maindiv_onlinestatus .draglistarea_orange  .grid_running_work .dgrid-scroller
+{
+	position: relative;
+	overflow-y: hidden;
+}
+.pageTabContainer
+{
+
+  width: 104%;
+ /* min-height: 800px; */
+  height: 85%;
+  /*
+  margin-top: -20px;
+   margin-left: auto;
+  margin-right: auto;
+  */
+  overflow-y: hidden;
+/*  margin-left: -22px;*/
+}
+#pageTabContainer_tablist_menuBtn
+{
+	width: 30px;
+}
+
+#maindiv_debugiodata #inputtable
+{
+	border-right: 1px solid gray;
+}
+#maindiv_debugiodata #inputtable td.headername_cell
+{
+	width: 300px;
+}
+#maindiv_diagnostics #inputtable td.cell,
+#maindiv_debugiodata #inputtable td.cell
+{
+	width: 120px;
+	text-align: center;
+}
+
+#maindiv_diagnostics .alarms_table
+{
+	width: 100%;
+}
+
+#maindiv_diagnostics .alarms_table th
+{
+	text-align: left;
+}
+#maindiv_diagnostics .alarms_table th, #maindiv_diagnostics .alarms_table td
+{
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+#maindiv_diagnostics .alarms_table th
+{
+	background-color: #f9ce9b;
+}
+
+
+#maindiv_startwashing .selected_program,
+#maindiv_editprograms .selected_program
+{
+	background-image : url('../css/images/button_program_green.png')
+}
+
+#maindiv_editparameters .container .keyboard
+{
+	float: left;
+}
+#maindiv_editparameters .container .editgrid
+{
+	float: left;
+	width: 100%;
+}
+#maindiv_editparameters .container .select
+{
+	float: left;
+	/*width: 450px;*/
+}
+#maindiv_startwashing .console
+{
+/*
+	padding: 10px;
+	border: 2px solid #00a2d8;
+	width: 530px;
+	height: 20px;
+	float: right;
+	margin-right: 28px;
+	margin-top: -215px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+*/
+}
+#maindiv_startwashing  .dgrid-cell, #maindiv_startwashing .dgrid
+{
+border: none;
+}
+#maindiv_startwashing .dgrid
+{
+	height: auto;
+}
+#maindiv_startwashing .dgrid .dgrid-scroller
+{
+	position: relative;
+	overflow: visible;
+}
+
+.pdf_wiever
+{
+ height: 700px;
+ width: 100%;
+}
+
+#maindiv_manualcontrol .manualcontrol_button
+{
+	 background-image : url('../css/images/button_empty_gray_small.png');
+	 width:120px;
+	 height:50px;
+	 background-repeat: no-repeat;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#maindiv_manualcontrol .manualcontrol_button_red
+{
+	 background-image : url('../css/images/button_empty_red_small.png');
+	 width:120px;
+	 height:50px;
+	 cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#maindiv_manualcontrol .manualcontrol_button_selected
+{
+	 background-image : url('../css/images/button_empty_green_small.png');
+	 width:120px;
+	 height:50px;
+	 cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#maindiv_manualcontrol .manualcontrol_button_wait
+{
+	 background-image : url('../css/images/button_empty_yel_small.png');
+	 width:120px;
+	 height:50px;
+	 cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#chart_controls
+{
+  margin-top: 10px;
+  margin-left: -10px;
+}
+#charts td
+{
+  padding-left: 15px;
+}
+#maindiv_startwashing .keyboard_start_wash
+{
+	display: none;
+    z-index: 1058;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: auto;
+    left: 475px;
+
+}
+#overlay
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#maindiv_diagnostics .grid_user_information th.dgrid-cell.dgrid-cell-padding.dgrid-column-3.field-time_out
+{
+	width: 291px;
+}
+#maindiv_editparameters  .grid_editparameters th.dgrid-cell.dgrid-cell-padding.dgrid-column-3.field-value
+{
+	width: 173px;
+}
+
+/*
+#grid_user_information .dgrid-header, #grid_editparameters .dgrid-header
+{
+	width: 1042px;
+}
+*/
+.prog_button_start {
+  background-image : url('../css/images/button_play_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_start:hover {
+  background-image : url('../css/images/button_play_hover_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.chart_button_start {
+  background-image : url('../css/images/button_play_gray_chart.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.chart_button_start:hover {
+  background-image : url('../css/images/button_play_hover_gray_chart.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+
+.prog_button_start_yel {
+  background-image : url('../css/images/button_play_yel_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_start_yel:hover {
+  background-image : url('../css/images/button_play_yel_gray_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.prog_button_stop {
+  background-image : url('../css/images/button_stop_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_stop:hover {
+  background-image : url('../css/images/button_stop_hover_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.chart_button_stop:hover {
+  background-image : url('../css/images/button_stop_hover_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.chart_button_stop {
+  background-image : url('../css/images/button_stop_gray_chart.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.chart_button_stop:hover {
+  background-image : url('../css/images/button_stop_hover_gray_chart.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.chart_button_pause {
+  background-image : url('../css/images/button_pause_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_pause{
+  background-image : url('../css/images/button_pause_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_pause:hover {
+  background-image : url('../css/images/button_pause_hover_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:right;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_continue {
+  background-image : url('../css/images/button_program_continue_gray.png');
+  width:200px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button_continue:hover {
+  background-image : url('../css/images/button_program_continue_green.png');
+  width:200px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button
+{
+  background-image : url('../css/images/button_program_blue.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+   cursor: pointer;
+}
+.prog_button:hover
+{
+  background-image : url('../css/images/button_program_green.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_winter
+{
+  background-image : url('../css/images/button_program_blue_winter.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_winter:hover
+{
+  background-image : url('../css/images/button_program_green_winter.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_summer
+{
+  background-image : url('../css/images/button_program_blue_summer.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_summer:hover
+{
+  background-image : url('../css/images/button_program_green_summer.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_fast:hover
+{
+  background-image : url('../css/images/button_program_green_fast.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.prog_button_fast
+{
+  background-image : url('../css/images/button_program_blue_fast.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+}
+.keyboard_button,
+.prog_button_empty
+{
+  background-image : url('../css/images/button_program_gray.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.master_slave_button
+{
+  background-image : url('../css/images/button_program_gray_40.png');
+  width:40px;
+  height:40px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.master_slave_button_green
+{
+  background-image : url('../css/images/button_program_green_40.png');
+  width:40px;
+  height:40px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.master_slave_button_red
+{
+  background-image : url('../css/images/button_program_red_40.png');
+  width:40px;
+  height:40px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.set_button_green
+{
+  background-image : url('../css/images/button_set_green.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.set_button
+{
+  background-image : url('../css/images/button_set_blue.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+.set_button:hover
+{
+  background-image : url('../css/images/button_set_blue_hover.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.set_button_small_green
+{
+  background-image : url('../css/images/button_set_green_small.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.set_button_small
+{
+  background-image : url('../css/images/button_set_blue_small.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.set_button_small:hover
+{
+  background-image : url('../css/images/button_set_blue_hover_small.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.set_button_small_save
+{
+  background-image : url('../css/images/button_program_orange_small.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+.set_button_small_save:hover
+{
+  background-image : url('../css/images/button_program_orange_small_hover.png');
+  width:30px;
+  height:30px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+.keyboard_button:hover
+{
+  background-image : url('../css/images/button_program_green.png');
+  width:50px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+.keyboard_button_clr,
+.setup_button
+{
+  background-image : url('../css/images/button_program_gray_large.png');
+  width:105px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+}
+.setup_button_use,
+.setup_button_save
+{
+  background-image : url('../css/images/button_program_green_large.png');
+  width:105px;
+  height:50px;
+  border-style:none;
+  margin-left: 5px;
+  margin-top: 5px;
+  float:left;
+  cursor: pointer;
+
+}
+.save_selections
+{
+	font-weight: bold;
+	float: right;
+	margin-right: 20px;
+}
+.text
+{
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 15px;
+	margin-left: 15px;
+	line-height: 50px;
+	*display: inline;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.text_keyboard
+{
+
+	font-size: 16px;
+	margin-left: -30px;
+	margin-top: 20px;
+}
+.text_
+{
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+/*	font-size: 18px; */
+	margin-left: 5px;
+	line-height: 50px;
+	*display: inline;
+}
+.text_slots
+{
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 18px;
+	margin-left: 5px;
+	line-height: 50px;
+	*display: inline;
+}
+.text_slave_master
+{
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 22px;
+	margin-left: 6px;
+	line-height: 40px;
+	*display: inline;
+}
+.text_small
+{
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 30px;
+	*display: inline;
+}
+.text_setup
+{
+	outline: none;
+	cursor: pointer;
+	/*font-weight: bold;*/
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 50px;
+	*display: inline;
+}
+.text_setup_button
+{
+	outline: none;
+	cursor: pointer;
+	/*font-weight: bold;*/
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 15px;
+/*	line-height: 30px; */
+	white-space: normal;
+	height: 50px;
+}
+.text_setup_button_red
+{
+	outline: none;
+	cursor: pointer;
+	/*font-weight: bold;*/
+	text-align: center;
+	vertical-align: baseline;
+	font-size: 15px;
+/*	line-height: 30px; */
+	white-space: normal;
+	height: 50px;
+	color: red;
+}
+.text_setup_button_blue
+{
+	color: blue;
+}
+.text_setup_button_green
+{
+	color: green;
+}
+.text_setup_button_orange
+{
+	color: orange;
+}
+.dijitReset .dijitInline .dijitButtonText
+{
+	white-space: normal;
+	width: 130px;
+}
+.clearBoth
+{
+  clear:both;
+}
+
+
+/* debugio page */
+
+#input_table
+{
+	border-bottom: 1px solid black;
+}
+#output_table
+{
+	border-bottom: 1px solid black;
+}
+#input_table td, #output_table td
+{
+	padding: 3px;
+}
+p
+{
+	font-size:15px;
+	color:#00A2D8;
+}
+h1,h2
+{
+	color:#00A2D8;
+}
+img.iobutton
+{
+	width:25px;
+	height:25px;
+}
+.headername_a
+{
+	color: red;
+}
+img.headername
+{
+	color:#ef8200;
+}
+/* debug iopage ends */
+.keyboard
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 170px;
+	width: 170px;
+}
+span.save_selections
+{
+	color: blue;
+	cursor:pointer;
+}
+td.empty_cell
+{
+	width: 35px;
+}
+/* customized dropdown */
+.claro .dijitComboBox .dijitArrowButtonInner
+{
+	border: none; !important
+}
+.claro .dijitSelect .dijitArrowButtonInner, .claro .dijitComboBox .dijitArrowButtonInner
+{
+	background-position: -27px 53%;
+	background-repeat: no-repeat;
+	margin: 0;
+	width: 35px;
+}
+.claro .dijitComboBoxOpenOnClickHover .dijitArrowButtonInner, .claro .dijitComboBox .dijitDownArrowButtonHover .dijitArrowButtonInner
+{
+    background-position: -27px 53%;
+	background-repeat: no-repeat;
+	margin: 0;
+	width: 35px;
+}
+.claro .dijitSelect, .claro .dijitTextBox
+{
+	height: 35px;
+}
+.claro .dijitComboBox .dijitButtonNode
+{
+	height: 35px;
+}
+.claro .dijitSelectLabel, .claro .dijitTextBox .dijitInputInner, .claro .dijitValidationTextBox .dijitValidationContainer
+{
+	height: 30px;
+}
+.claro .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner
+{
+	background-position: -27px 53%;
+}
+/* customised togglebuttons */
+.claro .dijitButtonActive .dijitButtonNode, .claro .dijitDropDownButtonActive .dijitButtonNode, .claro .dijitComboButtonActive .dijitButtonNode, .claro .dijitToggleButtonActive .dijitButtonNode, .claro .dijitToggleButtonChecked .dijitButtonNode
+{
+	background-color: #51CF7F;
+}
+#scanned_images
+{
+	text-align: center;
+}
+#scanned_images img
+{
+	padding: 15px 10px 0px 10px;
+}
+#imageslist
+{
+	height: 500px;
+	overflow-y: auto;
+	text-align:center;
+    margin:10px auto;
+}
+#imageslist span
+{
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+}
+

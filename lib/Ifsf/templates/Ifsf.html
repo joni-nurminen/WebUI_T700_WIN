@@ -1,0 +1,56 @@
+<div class="${baseClass}">
+<div id="maindiv_ifsfconfig">
+	<table id="maindiv_ifsfconfig_table" border ="0">
+	<tr>
+	<td>
+		<div class="draglistarea_orange" >
+			<h3>${ifsf_config}</h3>
+				<div class="container"> 
+				<h2>${ifsf_config}</h2> 
+				<table  border="0" align="center">
+					<tr id="ifsf_server_uptime_row"><td style="width:50%;"><b>ifsf_server_uptime:</b></td><td><input id="ifsf_server_uptime" style="width: 200px;" data-dojo-type="dijit/form/TextBox" disabled=disabled/></td><tr>
+					<tr id="cw_server_uptime_row"><td><b>cw_server_uptime:</b></td><td><input id="cw_server_uptime" style="width: 200px;" data-dojo-type="dijit/form/TextBox" disabled=disabled/></td><tr>
+				</table>
+				<hr style="border: 2px solid lightgray;"></hr>
+				<form id="IfsfConfigForm" data-dojo-type="dijit/form/Form" data-dojo-id="IfsfConfigForm" encType="multipart/form-data" action="" method="">
+						<table border="0" align="center">
+							<tr><th style="width:100px;"></th><th></th><tr>
+								<tr id="server_lon_addr_row"><td style="width:50%;"><b>${server_lon_addr}<b></td><td><input id="server_lon_addr" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="cw_lon_addr_row"><td><b>${cw_lon_addr}</b></td><td><input id="cw_lon_addr" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="cw_lon_dev_row"><td><b>${cw_lon_dev}</b></td><td><input id="cw_lon_dev" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="code_veh_ord_row"><td><b>${code_veh_ord}</b></td><td><input id="code_veh_ord" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="stand_alone_auth_row"><td><b>${stand_alone_auth}</b></td><td><input id="stand_alone_auth" style="width: 200px;" data-dojo-type="dijit/form/TextBox"/></td><tr>
+								<tr id="ifsf_bus_control_row"><td><b>${ifsf_bus_control}</b></td><td><input id="ifsf_bus_control" style="width: 200px;" data-dojo-type="dijit/form/TextBox"/></td><tr>
+						</table>
+				</form>
+				<br>
+				
+				<table border="0" align="center">
+				<tr>
+					<td style="width: 33%;"><button id="button_save_ifsf_conf" data-dojo-attach-point="button_save_ifsf_conf" style="width:133px; height: 40px;"><span class="text_setup_button">${button}</span></button></td>
+					<td></td>
+					<td></td>
+				</tr>
+				</table>
+				<br><br>
+				
+				<!--
+				<table border="0" align="center">
+				<tr>
+					<td style="width: 33%;"><button id="button_start_ifsf" data-dojo-attach-point="button_start_ifsf" style="width:133px; height: 40px;"><span class="text_setup_button">Start Ifsf</span></button></td>
+					<td><button id="button_stop_ifsf" data-dojo-attach-point="button_stop_ifsf" style="width:133px; height: 40px;"><span class="text_setup_button">Stop Ifsf</span></button></td>
+					<td><button id="button_restart_ifsf" data-dojo-attach-point="button_restart_ifsf" style="width:133px; height: 40px;><span class="text_setup_button">Restart Ifsf</span></button></td>
+				</tr>
+				</table>
+				-->
+				<!--<button id="button_save_ifsf_conf" data-dojo-attach-point="button_save_ifsf_conf" style="width:133px; height: 40px; margin-left: 4px"><span class="text_setup_button">${button}</span></button>-->
+				
+				</div>
+				
+		</div
+	</td>
+	</tr>
+	</table>
+</div>
+
+</div>

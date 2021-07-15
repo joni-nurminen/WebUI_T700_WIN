@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Player</title>
+  </head>
+  <body>
+    <canvas id="player" style="background: #000; height:525px; width:700px;">
+      Your browser sucks.
+    </canvas>
+  </body>
+  <script src="mjpeg.js"></script>
+  <script>
+    var player = new MJPEG.Player("player", "http://10.2.213.90:9911");
+    player.start();
+  </script>
+</html>

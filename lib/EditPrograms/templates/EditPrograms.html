@@ -1,0 +1,170 @@
+<div class="${baseClass}">	
+
+<div id="sync"></div>
+
+ <div id="maindiv_editprograms">
+		<div id="program_buttons" class="program_buttons">
+		<div id="edit_button1" data-dojo-attach-point="edit_button1"><span class="text_">1</span></div>
+		<div id="edit_button2" data-dojo-attach-point="edit_button2"><span class="text_">2</span></div>
+		<div id="edit_button3" data-dojo-attach-point="edit_button3"><span class="text_">3</span></div>
+		<div id="edit_button4" data-dojo-attach-point="edit_button4"><span class="text_">4</span></div>
+		<div id="edit_button5" data-dojo-attach-point="edit_button5"><span class="text_">5</span></div>
+		<div id="edit_button6" data-dojo-attach-point="edit_button6"><span class="text_">6</span></div>
+		<div id="edit_button7" data-dojo-attach-point="edit_button7"><span class="text_">7</span></div>
+		<div id="edit_button8" data-dojo-attach-point="edit_button8"><span class="text_">8</span></div>
+		<div id="edit_button9" data-dojo-attach-point="edit_button9"><span class="text_">9</span></div>
+		<div id="edit_button10" data-dojo-attach-point="edit_button10"><span class="text">10</span></div>
+		<div id="edit_button11" data-dojo-attach-point="edit_button11"><span class="text">11</span></div>
+		<div id="edit_button12" data-dojo-attach-point="edit_button12"><span class="text">12</span></div>
+		<div id="edit_button13" data-dojo-attach-point="edit_button13"><span class="text">13</span></div>
+		<div id="edit_button14" data-dojo-attach-point="edit_button14"><span class="text">14</span></div>
+		<div id="edit_button15" data-dojo-attach-point="edit_button15"><span class="text">15</span></div>
+		<br class="clearBoth" />
+		<div id="edit_button16" data-dojo-attach-point="edit_button16"><span class="text">16</span></div>
+		<div id="edit_button17" data-dojo-attach-point="edit_button17"><span class="text">17</span></div>
+		<div id="edit_button18" data-dojo-attach-point="edit_button18"><span class="text">18</span></div>
+		<div id="edit_button19" data-dojo-attach-point="edit_button19"><span class="text">19</span></div>
+		<div id="edit_button20" data-dojo-attach-point="edit_button20"><span class="text">20</span></div>
+		<div id="edit_button21" data-dojo-attach-point="edit_button21"><span class="text">21</span></div>
+		<div id="edit_button22" data-dojo-attach-point="edit_button22"><span class="text">22</span></div>
+		<div id="edit_button23" data-dojo-attach-point="edit_button23"><span class="text">23</span></div>
+		<div id="edit_button24" data-dojo-attach-point="edit_button24"><span class="text">24</span></div>
+		<div id="edit_button25" data-dojo-attach-point="edit_button25"><span class="text">25</span></div>
+		<div id="edit_button26" data-dojo-attach-point="edit_button26"><span class="text">26</span></div>
+		<div id="edit_button27" data-dojo-attach-point="edit_button27"><span class="text">27</span></div>
+		<div id="edit_button28" data-dojo-attach-point="edit_button28"><span class="text">28</span></div>
+		<div id="edit_button29" data-dojo-attach-point="edit_button29"><span class="text">29</span></div>
+		<div id="edit_button30" data-dojo-attach-point="edit_button30"><span class="text">30</span></div>
+		</div>
+		<br class="clearBoth" />
+
+ <div id="dnd_div">
+		<div id="draglist">
+		
+			<table id="maindiv_editprograms_table" border ="0">
+			<tr>
+			<td valign="top" height="230" width="445">
+				<div class="draglistarea_orange" >
+					<h3>${mainprogram}</h3>
+						<div class="container" >
+							 <div class="grid_mainprogram" id="grid_mainprogram" data-dojo-attach-point="grid_mainprogram"></div>
+						</div>
+				</div>
+			</td>
+			<td valign="top" height="230" width="445">
+				<div class="draglistarea_blue">
+					<h3>${sideprogram}</h3>
+						<div class="container" >
+							 <div class="grid_sideprogram" id="grid_sideprogram" data-dojo-attach-point="grid_sideprogram"></div>
+						</div>
+				</div>
+			</td>
+			<td valign="top" height="230" width="120">
+				<div class="draglistarea_green">
+					<h3>${pass_style}</h3>
+						<div class="container" >
+							 <div class="grid_pass_style" id="grid_pass_style" data-dojo-attach-point="grid_pass_style"></div>
+						</div>
+				</div>
+			</td>
+			<td id="edit_programs_buttons" valign="top" height="230" width="50">
+				<div class="move_line_button" style="visibility:hidden"  data-dojo-attach-point="move_line" title="Move line"></div>
+				<div class="copy_program_button" style="visibility:hidden"  data-dojo-attach-point="copy_program" title="Copy program"></div>
+				<div class="paste_program_button" style="visibility:hidden"  data-dojo-attach-point="paste_program" title="Paste program"></div>
+				<div class="show_copied_program_button" style="visibility:hidden"  data-dojo-attach-point="show_copied_program" title="Show copied program"></div>
+				<div class="hide_copied_program_button" style="visibility:hidden"  data-dojo-attach-point="hide_copied_program" title="Hide copied program"></div>
+			</td>
+			</tr>
+			<tr>
+			<td colspan="4"  valign="top">
+				<div class="draglistarea_blue_copy_program">
+					<h3>Program in memory (paste program)</h3>
+						<div class="container" >
+							 <div class="grid_wash_program" id="grid_copied_wash_program" data-dojo-attach-point="grid_copied_wash_program"></div>
+						</div>
+				</div>
+			</td>
+			</tr>
+			<tr>
+			<td colspan="4"  valign="top">
+				<div class="wash_program_area_green">
+					<h3>${washing_program}</h3>
+						<div class="container" >
+						<table border="0" style="margin-right:15px">
+							<tr>
+								<td width="100%">
+							
+								<table border="0" style="text-align:left">
+									<tr>
+									   <td width="150"><label><b>${select_prog_type}</b></label></td>
+									   <td colspan="2">
+											<form id="ProgramType" data-dojo-type="dijit/form/Form" data-dojo-id="ProgramType" encType="multipart/form-data" action="" method="">
+											<input id="none" type="radio" name="Program_Type" value="none" checked data-dojo-type="dijit/form/RadioButton">
+											<label for="none"><b>${special}</b></label>
+											<!-- select program type -->
+											<input id="summer_program" type="radio" name="Program_Type" value="summer_program"  data-dojo-type="dijit/form/RadioButton">
+											<label for="summer_program"><b>${summer}</b></label>
+											
+											<input id="winter_program" type="radio" name="Program_Type" value="winter_program" data-dojo-type="dijit/form/RadioButton">
+											<label for="winter_program"><b>${winter}</b></label>
+											
+											<input id="fast_program" type="radio" name="Program_Type" value="fast_program" data-dojo-type="dijit/form/RadioButton">
+											<label for="fast_program"><b>${fast}</b></label>
+											</form>
+											</td></tr>
+										
+										<!-- select set -->
+										
+											<td><label><b>${load_save_set}</b></label></td>
+											<td>
+												<div id="set_buttons_load" style="width:180px;">
+													<div class="set_button_small" id="button_load_set_1" data-dojo-attach-point="button_load_set_1" title="Load set 1"><span class="text_small">A</span></div>
+													<div class="set_button_small" id="button_load_set_2" data-dojo-attach-point="button_load_set_2" title="Load set 2"><span class="text_small">B</span></div>
+													<div class="set_button_small" id="button_load_set_3" data-dojo-attach-point="button_load_set_3" title="Load set 3"><span class="text_small">C</span></div>
+													<div class="set_button_small" id="button_load_set_4" data-dojo-attach-point="button_load_set_4" title="Load set 4"><span class="text_small">D</span></div>
+												</div>
+											</td>
+											<td>											
+												<div id="set_buttons_save" style="width:180px;">
+													<div class="set_button_small_save" id="button_save_set_1" data-dojo-attach-point="button_save_set_1" title="Save set 1"><span class="text_small">A</span></div>
+													<div class="set_button_small_save" id="button_save_set_2" data-dojo-attach-point="button_save_set_2" title="Save set 2"><span class="text_small">B</span></div>
+													<div class="set_button_small_save" id="button_save_set_3" data-dojo-attach-point="button_save_set_3" title="Save set 3"><span class="text_small">C</span></div>
+													<div class="set_button_small_save" id="button_save_set_4" data-dojo-attach-point="button_save_set_4" title="Save set 4"><span class="text_small">D</span></div>
+												<!--	<div style="margin-left:35px;" class="set_button_small_save" id="button_sync" data-dojo-attach-point="button_sync"><span class="text_small">S</span></div> -->
+												</div>
+												
+											</td>
+										</tr>
+								</table>
+								
+								</td>
+							
+							<td><div class="copy_line" style="visibility:visible"  data-dojo-attach-point="copy_line" title="Copy selected line"></div></td>
+						<!--	<td><div class="paste_line" style="visibility:visible"  data-dojo-attach-point="paste_line" title="Paste copied line"></div></td> -->
+							<td><div class="paste_line_up" style="visibility:visible"  data-dojo-attach-point="paste_line_up" title="Paste copied line up"></div></td>
+							<td><div class="paste_line_mid" style="visibility:visible"  data-dojo-attach-point="paste_line_mid" title="Paste copied line mid"></div></td>
+							<td><div class="paste_line_down" style="visibility:visible"  data-dojo-attach-point="paste_line_down" title="Paste copied line down"></div></td>
+							<td><div class="remove_line" style="visibility:visible"  data-dojo-attach-point="remove_line" title="Remove selected line"></div></td>
+							<td><div class="save_program" style="visibility:visible"  data-dojo-attach-point="save_program" title="Save program"></div></td>
+							<td><div class="remove_all" style="visibility:visible"  data-dojo-attach-point="remove_all" title="Remove Program"></div></td>
+							</tr>
+						</table>
+							<div class="grid_wash_program" id="grid_wash_program" data-dojo-attach-point="grid_wash_program"></div>
+						</div>
+				</div>
+			</td>
+			<!--
+			<td>
+			<div class="save_program" style="visibility:visible"  data-dojo-attach-point="save_program" title="Save program"></div>
+			<div class="remove_line" style="visibility:visible"  data-dojo-attach-point="remove_line" title="Remove selected line"></div>
+			<div class="remove_all" style="visibility:visible"  data-dojo-attach-point="remove_all" title="Remove Program"></div>
+			</td>
+			-->
+			</tr>
+			
+			</table>
+			
+		</div>
+</div>
+</div>
+ </div>

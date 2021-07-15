@@ -1,0 +1,78 @@
+<div class="${baseClass}">
+
+<div id="maindiv_editparameters">
+	<table id="maindiv_editparameters_table" border ="0">
+	<tr>
+	<td>
+		<div class="draglistarea_orange" >
+			<h3>${parameters}</h3>
+				<div class="container" > 
+				
+				<table border="0" style="float:left; width:100%">
+					<tr>
+						<td><div class="select" ><b>${select_param} </b><input id="ParamSelect"></div></td>
+						<td><button id="inverter1"  data-dojo-attach-point="button_inverter1" style="margin-left: 4px"><span class="text_setup_button">${inverter1}</span></button></td>
+						<td><button id="inverter2"  data-dojo-attach-point="button_inverter2" style="margin-left: 4px"><span class="text_setup_button">${inverter2}</span></button></td>
+						<td><button id="inverter3"  data-dojo-attach-point="button_inverter3" style="margin-left: 4px"><span class="text_setup_button">${inverter3}</span></button></td>
+						<td><button id="inverter4"  data-dojo-attach-point="button_inverter4" style="margin-left: 4px"><span class="text_setup_button">${inverter4}</span></button></td>
+					</tr>
+
+					<tr> <!--
+					<td><button id="reset_paratmeters"  data-dojo-attach-point="button_reset_parameters" style="color: red;margin-left: 4px; float: right"><span class="text_setup_button_red">${reset_parameters}</span></button></td> updKHu -->
+						<td></td>
+						<td><button id="reset_gantry_inv"  data-dojo-attach-point="button_reset_gantry_inv" style="color: red;margin-left: 4px"><span class="text_setup_button_red">${reset_gantry}</span></button></td>
+						<td><button id="reset_lift_inv"  data-dojo-attach-point="button_reset_lift_inv" style="color: red; margin-left: 4px"><span class="text_setup_button_red">${reset_lift}</span></button></td>
+						<td><button id="reset_brush_inv"  data-dojo-attach-point="button_reset_brush_inv" style="color: red;margin-left: 4px"><span class="text_setup_button_red">${reset_brush}</span></button></td>
+						<td><button id="reset_rotate_inv"  data-dojo-attach-point="button_reset_rotate_inv" style="color: red; margin-left: 4px"><span class="text_setup_button_red">${reset_rotate}</span></button></td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td><button id="reset_paratmeters"  data-dojo-attach-point="button_reset_parameters" style="color: red;margin-left: 4px"><span class="text_setup_button_red">${reset_parameters}</span></button></td>
+						<td><button id="selections"  data-dojo-attach-point="button_save_selections" style="color: blue; margin-left: 4px"><span class="text_setup_button_blue">${save_parameters}</span></button></td>
+						<td><button id="search"   data-dojo-attach-point="button_search_value" style="color: green; margin-left: 4px"><span class="text_setup_button_green">${search}</span></button></td>
+						<td><button id="bay_dimensions"  data-dojo-attach-point="button_bay_dimensions" style="color: orange; margin-left: 4px"><span class="text_setup_button_orange">${bay_dimensions}</span></button></td>
+					</tr>
+
+				</table>
+				<br>
+				
+				<div id="bay_dimensions_div" class="bay_dimensions_div" style="visibility:hidden; height: 0px">
+					<table  border="0" style="width:100%">
+					<h2 class="center">${measurements}</h2> 
+								<tr><td style="width:200px"><span class="headername">${machine_height}</span><td class="empty_cell"></td><td><span id="machineHeight"></span></td><td rowspan="3"><button id="button_reset_high_measuring" data-dojo-attach-point="button_reset_high_measuring" style="color: red; margin-left: 4px; height: 37px; float:right"><span class="text_setup_button">${reset_high_measuring}</span></button></td></tr>
+								<tr><td><span class="headername">${machine_height_kh}</span><td class="empty_cell"><td><span id="machineHeightKh"></span></td></tr>
+								<tr><td><span class="headername">${hall_length}</span><td class="empty_cell"><td><span id="hallLength"></span></td></tr>
+					</table>
+				</div>
+				<br>
+				<div>
+
+					<div class="clearBoth"></div>
+					<div id="grid_editparameters" class="grid_editparameters" style="visibility:hidden">
+					</div>
+					<div id="grid_editinverters" class="grid_editparameters" style="visibility:hidden; height: 0px">
+					</div>
+					<div id="grid_editinverters2" class="grid_editparameters" style="visibility:hidden; height: 0px">
+					</div>
+					<div id="grid_editinverters3" class="grid_editparameters" style="visibility:hidden; height: 0px">
+					</div>
+					<div id="grid_editinverters4" class="grid_editparameters" style="visibility:hidden; height: 0px">
+					</div>
+					<div id="grid_search" class="grid_editparameters" style="visibility:hidden; height: 0px">
+					</div>
+				<table border=0 id="buttons_table" style="visibility:hidden">
+					<td><button id="get_value" data-dojo-attach-point="button_get_value" style="color: blue; margin-left: 4px"><span class="text_setup_button">${get_value}</span></button></td>
+					<td><button id="set_value" data-dojo-attach-point="button_set_value" style="color: blue; margin-left: 4px"><span class="text_setup_button">${set_value}</span></button></td>
+					<td><div id="inverter_response"></div></td>
+					</tr>
+				</table>
+				
+				</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+</div>
+
+</div>

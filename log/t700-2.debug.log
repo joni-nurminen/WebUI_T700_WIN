@@ -1,0 +1,33 @@
+Oct  8 10:55:25 TM101 syslogd 1.5.0: restart.
+Oct  8 10:55:25 TM101 dhcpcd[98]: broadcasting DHCP_DISCOVER 
+Oct  8 10:55:25 TM101 dhcpcd[98]: dhcpIPaddrLeaseTime=86400 in DHCP server response. 
+Oct  8 10:55:25 TM101 dhcpcd[98]: DHCP_OFFER received from  (10.4.177.129) 
+Oct  8 10:55:25 TM101 dhcpcd[98]: broadcasting DHCP_REQUEST for 10.4.177.141 
+Oct  8 10:55:25 TM101 dhcpcd[98]: dhcpIPaddrLeaseTime=86400 in DHCP server response. 
+Oct  8 10:55:25 TM101 dhcpcd[98]: DHCP_ACK received from  (10.4.177.129) 
+Oct  8 10:55:25 TM101 root: Starting network: eth0 up
+Oct  8 10:55:27 TM101 sshd[140]: Server listening on 0.0.0.0 port 22.
+Oct  8 10:55:27 TM101 sshd[140]: Generating 768 bit RSA key.
+Oct  8 10:55:27 TM101 root: Variable FILESATEXECUTE=     23
+Oct  8 10:55:27 TM101 root: execute directory files(     23) are found.
+Oct  8 10:55:27 TM101 root: Variable FILESATUPDATE=      1
+Oct  8 10:55:27 TM101 root: execute directory files(      1) are found.
+Oct  8 10:55:27 TM101 root: RTC returned RWSEC0 =       1
+Oct  8 10:55:27 TM101 root: ==> READABLE-system.
+Oct  8 10:55:28 TM101 tammercontrol: tammermatic.c $Rev: 501 $ Oct  8 2013-11:53:57.
+Oct  8 10:55:28 TM101 shmsrv: Child process created: 171 
+Oct  8 10:55:28 TM101 shmsrv: NetCfg:6 1 
+Oct  8 10:55:28 TM101 shmsrv: WD_PID:173 
+Oct  8 10:55:28 TM101 shmsrv: RX_PID:176[0] 
+Oct  8 10:55:28 TM101 shmsrv: PARENT_PID:171 
+Oct  8 10:55:28 TM101 shmsrv: Accepting: 
+Oct  8 10:55:28 TM101 shmsrv: New RxSock connection 
+Oct  8 10:55:28 TM101 shmsrv: Master RX counter error 0 0! 
+Oct  8 10:55:29 TM101 shmsrv: TX_PID:174 
+Oct  8 10:55:29 TM101 shmsrv: Contacting:10.4.177.138:9998
+Oct  8 10:55:29 TM101 shmsrv: New TxSock connection:10.4.177.138:9998 
+Oct  8 10:55:29 TM101 exbootd: Daemon starting up...
+Oct  8 10:55:29 TM101 exbootd: Child process created: 194 
+Oct  8 10:55:32 TM101 sshd[140]: RSA key generation complete.
+Oct  8 10:55:47 TM101 sshd[287]: Accepted password for ROOT from 10.4.177.182 port 1546 ssh2
+Oct  8 10:56:14 TM101 sshd[500]: Accepted password for ROOT from 10.4.177.182 port 1604 ssh2

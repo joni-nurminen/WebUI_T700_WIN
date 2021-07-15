@@ -1,0 +1,68 @@
+<div class="${baseClass}">
+<div id="maindiv_diagnostics">
+	<table id="maindiv_diagnostics_table" border ="0">
+	<tr>
+	<td>
+		<div class="draglistarea_orange" >
+			<h3>${diagnostics}</h3>
+				<div class="container"> 
+				<h1>${uptime}</h1>
+				<div id="uptime"></div>
+				<hr></hr>
+				<h1>${alarm_reason}</h1>
+				<table id="inputtable" class="alarms_table" cellpadding="0" cellspacing="0">
+						<tr><th></th><th class="cell">${alarm_type}</th><th class="cell">${prog_step}</th><th class="cell">${time_stamp}</th></tr>
+						<tr><td><span class="alarm_nro">1.</span></td><td><span class="headername_a" id="Alarm_A0"></span></td><td class="cell"><span id="Alarm_S0"></span></td><td class="cell"><span id="Alarm1_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">2.</span></td><td><span class="headername_a" id="Alarm_A1"></span></td><td class="cell"><span id="Alarm_S1"></span></td><td class="cell"><span id="Alarm2_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">3.</span></td><td><span class="headername_a" id="Alarm_A2"></span></td><td class="cell"><span id="Alarm_S2"></span></td><td class="cell"><span id="Alarm3_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">4.</span></td><td><span class="headername_a" id="Alarm_A3"></span></td><td class="cell"><span id="Alarm_S3"></span></td><td class="cell"><span id="Alarm4_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">5.</span></td><td><span class="headername_a" id="Alarm_A4"></span></td><td class="cell"><span id="Alarm_S4"></span></td><td class="cell"><span id="Alarm5_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">6.</span></td><td><span class="headername_a" id="Alarm_A5"></span></td><td class="cell"><span id="Alarm_S5"></span></td><td class="cell"><span id="Alarm6_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">7.</span></td><td><span class="headername_a" id="Alarm_A6"></span></td><td class="cell"><span id="Alarm_S6"></span></td><td class="cell"><span id="Alarm7_time"></span></td></tr>	
+						<tr><td><span class="alarm_nro">8.</span></td><td><span class="headername_a" id="Alarm_A7"></span></td><td class="cell"><span id="Alarm_S7"></span></td><td class="cell"><span id="Alarm8_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">9.</span></td><td><span class="headername_a" id="Alarm_A8"></span></td><td class="cell"><span id="Alarm_S8"></span></td><td class="cell"><span id="Alarm9_time"></span></td></tr>
+						<tr><td><span class="alarm_nro">10.</span></td><td><span class="headername_a" id="Alarm_A9"></span></td><td class="cell"><span id="Alarm_S9"></span></td><td class="cell"><span id="Alarm10_time"></span></td></tr>							
+				</table>
+				<hr></hr>
+				<div id="ifsf_error_data">
+					<h1>${latest_ifsf_error}</h1>
+					<table id="inputtable" class="alarms_table" cellpadding="0" cellspacing="0">
+							<tr><th class="cell">${ifsf_id}</th><th class="cell">${ifsf_alarm_type}</th><th class="cell">${ifsf_prog_nro}</th><th class="cell">${ifsf_line_nro}</th><th class="cell">${ifsf_operation_mode}</th><th class="cell">${ifsf_timestamp}</th></tr>
+							<tr><td><span  class="cell" id="Ifsf_alarm_id"></span>
+							</td><td><span class="cell" id="Ifsf_alarm_type"></span>
+							</td><td><span class="cell" id="Ifsf_alarm_nro"></span>
+							</td><td><span class="cell" id="Ifsf_alarm_line"></span>
+							</td><td><span class="cell" id="Ifsf_alarm_mode"></span>
+							</td><td><span class="cell" id="Ifsf_alarm_time"></span>
+							</td></tr>						
+					</table>
+					<hr></hr>
+				</div>
+				<h1>${logins}</h1>
+				<div id="grid_user_information" class="grid_user_information"></div>
+				<hr></hr>
+				<h1>${process_cycletimes}</h1>
+				<table id="inputtable" border="0">								
+						<tr><td class="headername_cell"><span class="headername"></span><td></td><td class="cell"><b>${act}</b></td><td class="cell"><b>${max}</b></td></tr>
+						<tr><td><span class="headername">${io_update_and_analog}</span><td></td><td class="cell"><span id="G10Ave"></span></td><td class="cell"><span id="G10Max"></span></td></tr>
+						<tr><td><span class="headername">${machinecontrol_task}</span><td></td><td class="cell"><span id="GLoAve"></span></td><td class="cell"><span id="GLoMax"></span></td></tr>
+						<tr><td><span class="headername">${cw_server_serial_link}</span><td></td><td class="cell"><span id="G40Ave"></span></td><td class="cell"><span id="G40Max"></span></td></tr>
+						<tr><td><span class="headername">${general_background}</span><td></td><td class="cell"><span id="G160Ave"></span></td><td class="cell"><span id="G160Max"></span></td></tr>
+						<tr><td><span class="headername">${remote_io_task}</span><td></td><td class="cell"><span id="G320Ave"></span></td><td class="cell"><span id="G320Max"></span></td></tr>
+						<tr><td><span class="headername">${time_calculations}</span><td></td><td class="cell"><span id="G640Ave"></span></td><td class="cell"><span id="G640Max"></span></td></tr>
+						<tr><td><span class="headername">${cycletime_calculations}</span><td></td><td class="cell"><span id="G1280Ave"></span></td><td class="cell"><span id="G1280Max"></span></td></tr>
+				</table>				
+				<div id="scanned_images" class="scanned_images">
+					<hr></hr>
+					<h1>${scanned_images}</h1>
+					<div id="imageslist"></div>
+				</div>
+				<hr></hr>
+				</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+</div>
+</div>
+

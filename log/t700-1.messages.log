@@ -1,0 +1,70 @@
+Nov  1 09:33:23 TM101 syslogd 1.5.0: restart.
+Nov  1 09:33:23 TM101 crond[129]: crond 2.3.2 dillon, started, log level 8 
+Nov  1 09:33:24 TM101 sshd[152]: Server listening on 0.0.0.0 port 22.
+Nov  1 09:33:24 TM101 sshd[152]: Generating 768 bit RSA key.
+Nov  1 09:33:25 TM101 root: Variable FILESATEXECUTE=     36
+Nov  1 09:33:25 TM101 root: execute directory files(     36) are found.
+Nov  1 09:33:25 TM101 root: Variable FILESATUPDATE=      1
+Nov  1 09:33:25 TM101 root: execute directory files(      1) are found.
+Nov  1 09:33:25 TM101 root: RTC returned RWSEC0 =       1
+Nov  1 09:33:25 TM101 root: ==> READABLE-system.
+Nov  1 09:33:25 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Nov  1 2019-09:25:53.
+Nov  1 09:33:26 TM101 root: Starting sync_client(single)
+Nov  1 09:33:27 TM101 exbootd: exbootd SVN $Rev: 492 $ Jan  5 2017-16:40:57.
+Nov  1 09:33:27 TM101 exbootd: Child process created: 197 
+Nov  1 09:33:36 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Nov  1 09:33:36 TM101 sshd[152]: RSA key generation complete.
+Nov  1 09:33:42 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Nov  1 09:33:42 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)170 
+Nov  1 09:33:42 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Nov  1 09:33:42 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Nov  1 09:33:43 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Nov  1 09:33:48 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Nov  1 09:34:50 TM101 sshd[659]: Accepted password for ROOT from 10.2.213.98 port 60222 ssh2
+Nov  1 09:35:00 TM101 sshd[740]: Accepted password for ROOT from 10.2.213.98 port 60225 ssh2
+Nov  1 09:35:43 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Nov  1 09:35:43 TM101 tammercontrol: COM_TelcoLC_Wr_Reg_AutoLock register:0x0018 data:0x210A 
+Nov  1 09:35:43 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 
+Nov  1 09:37:11 TM101 tammercontrol: AUTHORISED TIME:0 s 
+Nov  1 09:37:12 TM101 tammercontrol: COM_TelcoLC_Wr_Reg_AutoLock register:0x0004 data:0xC000 
+Nov  1 09:37:12 TM101 tammercontrol: TelcoLC Gain Control data:0xC000 retval:0x0000 
+Nov  1 09:37:13 TM101 tammercontrol: Initialize_for_wash() nr:27 Scanner Active! 
+Nov  1 09:37:13 TM101 tammercontrol: sub.c Initialize_for_wash() photobar=19 pixel from ground. Mask=0xC0 MSB bits. 
+Nov  1 09:37:15 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Nov  1 09:37:15 TM101 tammercontrol: ScanFuncs(0xC1EA): photobar 19 pixel from ground, nozzle offset 24 cm 
+Nov  1 09:37:15 TM101 tammercontrol: SCANNER VAN HEIGTH LEVEL trglevel:333 3cm 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xE3FFFF shift:0 data:BF i:0 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:1 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:2 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:3 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:4 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:5 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFFFFF shift:0 data:FF i:6 
+Nov  1 09:37:21 TM101 tammercontrol: Scan temp:0xFFF800 shift:0 data:F8 i:7 
+Nov  1 09:37:21 TM101 tammercontrol: BLIND LEVEL: Blind level=19 PhotoBar level=19
+Nov  1 09:37:32 TM101 tammercontrol: BUMBERS AT PICTURE: front=44(res-rear=178)  rear=175(res-front=37)
+Nov  1 09:37:32 TM101 tammercontrol: REAR HEIGHT AT PICTURE: height1CM=78 diff3CM=4 pos=161 prosentti=100
+Nov  1 09:37:37 TM101 tammercontrol: B-CELL FRONT AND REAR POS front.pos:56 rear.pos:470 
+Nov  1 09:38:28 TM101 tammercontrol: TOP BRUSH OVERLOAD step:210 level:4 
+Nov  1 09:38:31 TM101 last message repeated 4 times
+Nov  1 09:38:32 TM101 tammercontrol: TOP BRUSH OVERLOAD step:212 level:4 
+Nov  1 09:38:37 TM101 tammercontrol: TOP BRUSH DISTANCE AT ROOF level:1 distance:41 cm 
+Nov  1 09:38:52 TM101 tammercontrol: KH PULSSILASKURIERO ALARAJALLA 4
+Nov  1 09:39:34 TM101 tammercontrol: TOP BRUSH OVERLOAD step:662 level:4 
+Nov  1 09:39:35 TM101 tammercontrol: TOP BRUSH OVERLOAD step:662 level:4 
+Nov  1 09:40:09 TM101 tammercontrol: CONSUMPTION 0:0 1:0 2:0 3:2850 4:0 5:0 6:0 7:134 
+Nov  1 09:40:09 TM101 tammercontrol: CONSUMPTION 8:0 9:0 10:0 11:0 12:102 13:60 14:0 15:0 
+Nov  1 09:40:09 TM101 tammercontrol: CONSUMPTION 16:0 17:113 18:0 19:0 20:0 21:0 22:0 23:0 24:0 25:0 
+Nov  1 09:40:11 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Nov  1 09:41:16 TM101 sshd[659]: syslogin_perform_logout: logout() returned an error
+Nov  1 10:24:14 TM101 sshd[16997]: Accepted password for ROOT from 10.2.213.98 port 63065 ssh2
+Nov  1 10:24:14 TM101 sshd[16997]: subsystem request for sftp
+Nov  1 10:24:14 TM101 sshd[16997]: subsystem request for sftp failed, subsystem not found
+Nov  1 10:32:28 TM101 sshd[19574]: Accepted password for ROOT from 10.2.213.120 port 1550 ssh2
+Nov  1 10:32:28 TM101 sshd[19574]: subsystem request for sftp
+Nov  1 10:32:28 TM101 sshd[19574]: subsystem request for sftp failed, subsystem not found
+Nov  1 10:33:40 TM101 sshd[152]: Generating new 768 bit RSA key.
+Nov  1 10:33:49 TM101 sshd[152]: RSA key generation complete.
+Nov  1 10:34:28 TM101 sshd[20195]: Accepted password for ROOT from 10.2.213.120 port 1603 ssh2
+Nov  1 10:34:28 TM101 sshd[20195]: subsystem request for sftp
+Nov  1 10:34:28 TM101 sshd[20195]: subsystem request for sftp failed, subsystem not found

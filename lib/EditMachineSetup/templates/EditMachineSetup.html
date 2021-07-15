@@ -1,0 +1,319 @@
+<div class="${baseClass}">
+
+<div id="maindiv_editmachinesetup">
+	<table id="maindiv_editmachinesetup_table" border ="0">
+	<tr>
+	<td>
+		<div class="draglistarea_orange" >
+			<h3>${machine_setup}</h3>
+				<div class="container" >
+					<form id="MachineSetupForm" data-dojo-type="dijit/form/Form" data-dojo-id="MachineSetupForm" encType="multipart/form-data">
+					<div id="hidable_content">
+						<table border="0" style="width:100%">
+
+						<h2>${machine_type}</h2>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="harjakone" name="machine_type" value="1"/> <label for="radioOne"><b>${brush_machine}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="kp_kone" name="machine_type" value="2"/> <label for="radioOne"><b>${kp_machine}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="combikone" name="machine_type" value="3"/> <label for="radioOne"><b>${combi_machine}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="kuivaajakone" name="machine_type" value="4"/> <label for="radioOne"><b>${drying_machine}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="harjaduomaster" name="machine_type" value="5"/> <label for="radioOne"><b>${brush_duo_master}</b></label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="harjaduoslave" name="machine_type" value="6"/> <label for="radioOne"><b>${brush_duo_slave}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="kpduomaster" name="machine_type" value="7"/> <label for="radioOne"><b>${kp_duo_master}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="kppduoslave" name="machine_type" value="8"/> <label for="radioOne"><b>${kp_duo_slave}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="combiduomaster" name="machine_type" value="9"/> <label for="radioOne"><b>${combi_duo_master}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="combiduoslave" name="machine_type" value="10"/> <label for="radioOne"><b>${combi_duo_slave}</b></label></td>
+
+							</tr>
+						</table>
+						</div>
+					<!--	<hr></hr> -->
+					<!-- <div id="hidable_content"> -->
+					<div id="bay_parameters">
+						<table border="0" style="width:100%">
+							<tr>
+								<td style="width:20%"><h2>${bay_type}</h2></td>
+								<td style="width:20%"><h2>${door_control}</h2></td>
+								<td style="width:20%"><h2>${door_function}</h2></td>
+								<td style="width:20%"><h2>${wax_type}</h2></td>
+								<td style="width:20%"><h2>${foam_type}</h2></td>
+							</tr>
+							<!--
+							<tr>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="bay_notinuse" name="bay_type" 	value="-1"/> <label for="radioOne"><b>${not_in_use}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorc_notinuse" name="door_control" value="-1"/> <label for="radioOne"><b>${not_in_use}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorf_notinuse" name="door_function"value="-1"/> <label for="radioOne"><b>${not_in_use}</b></label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="wax_notinuse" name="wax_type"  	value="-1"/> <label for="radioOne"><b>${not_in_use}</b></label></td>
+							</tr>
+							-->
+							<tr>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="bay_drivethru" name="bay_type"   	value="1"/> <label for="radioOne">${drive_thru}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorc_contactsignal" name="door_control" value="0"/> <label for="radioOne">${contact_signal}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorf_normal" name="door_function"value="0"/> <label for="radioOne">${normal}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="wax_cold" name="wax_type"   	value="0"/> <label for="radioOne">${cold}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="foam_rain" name="foam_type"   	value="1"/> <label for="radioOne">${rain}</label></td>
+							</tr>
+							<tr>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="bay_reversing" name="bay_type"   	value="0"/> <label for="radioOne">${reversing_backwards}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorc_pulse" name="door_control" value="1"/> <label for="radioOne">${pulse}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorf_ventilation" name="door_function"value="2"/> <label for="radioOne">${ventilation}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="wax_hot" name="wax_type"   	value="1"/> <label for="radioOne">${hot}</label></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="foam_lava" name="foam_type"   	value="0"/> <label for="radioOne">${lava}</label></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="doorf_openboth" name="door_function" value="1"/> <label for="radioOne">${open_both}</label></td>
+								<td></td>
+							</tr>
+						</table>
+						<table border="0" style="width:100%">
+						<tr>
+							<td style="width:25%"><h2>${set_pumps}</h2></td>
+							<td style="width:25%"><h2>${set_deiceseqs}</h2></td>
+							<td style="width:25%"></td>
+							<td style="width:25%"></td>
+						</tr>
+
+						<tr>
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="pump1" name="sum_of_pumps" value="1"/> <label for="radioOne">1</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="pump2" name="sum_of_pumps" value="2"/> <label for="radioOne">2</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="pump3" name="sum_of_pumps" value="3"/> <label for="radioOne">3</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="pump4" name="sum_of_pumps" value="4"/> <label for="radioOne">4</label></td>
+								
+								<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="deiceseqs1" name="sum_of_deiceseqs" value="1"/> <label for="radioOne">1</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="deiceseqs2" name="sum_of_deiceseqs" value="2"/> <label for="radioOne">2</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="deiceseqs3" name="sum_of_deiceseqs" value="3"/> <label for="radioOne">3</label>
+								<input type="radio" data-dojo-type="dijit/form/RadioButton" id="deiceseqs4" name="sum_of_deiceseqs" value="4"/> <label for="radioOne">4</label></td>
+						</tr>
+						</table>
+
+					</form>
+					</div>
+						<button id="button_save_conf_types" data-dojo-attach-point="button_save_conf_types" style="width:133px; height: 40px; margin-left: 4px; margin-top: 10px"><span class="text_setup_button">${save_setup}</span></button>
+						<span id="save_conf_types_respond" class="online_status_text"></span>
+
+
+					<div id="hidable_content2">
+					<form id="MachineFunctiondForm" data-dojo-type="dijit/form/Form" data-dojo-id="MachineFunctiondForm" encType="multipart/form-data" action="" method="">
+					<hr></hr>
+					<table border="0" style="width:100%">
+					<h2>Functions</h2>
+						<tr>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '1'" id ="chassis_wash"><span class="text_setup_button">${chassis_wash}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '2'" id ="wheel_wash"><span class="text_setup_button">${wheel_wash}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '3'" id ="prewash_2"><span class="text_setup_button">${prewash2}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '4'" id ="van_nozzles"><span class="text_setup_button">${van_nozzles}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '5'" id ="ro_water"><span class="text_setup_button">${ro_water}</span></button></td>
+
+						</tr>
+						<tr>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '6'" id ="wheel_brush" ><span class="text_setup_button">${wheel_brush}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '7'"  id ="buffing_wax"><span class="text_setup_button">${buffing_wax}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '8'"  id ="wheel_prewash"><span class="text_setup_button">${wheel_prewash}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '9'"  id ="tyre_shiner"><span class="text_setup_button">${tyre_shiner}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '10'" id ="opt_scanner"><span class="text_setup_button">${opt_scanner}</span></button></td>
+						</tr>
+						<tr>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '11'" id ="air_wax"><span class="text_setup_button">${air_wax}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '12'" id ="biojet_in_use"><span class="text_setup_button">${biojet_in_use}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '13'" id ="drive_in_prewash"><span class="text_setup_button">${drive_in_prewash}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '14'" id ="option1"><span class="text_setup_button">${option1}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '15'" id ="option2"><span class="text_setup_button">${option2}</span></button></td>
+						</tr>
+						<tr>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '16'" id ="option3"><span class="text_setup_button">${option3}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '17'" id ="option4"><span class="text_setup_button">${option4}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '18'" id ="option5"><span class="text_setup_button">${option5}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '19'" id ="option6"><span class="text_setup_button">${option6}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '20'" id ="option7"><span class="text_setup_button">${option7}</span></button></td>
+						</tr>
+						<tr>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '21'" id ="option8"><span class="text_setup_button">${option8}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '22'" id ="option9"><span class="text_setup_button">${option9}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '23'" id ="option10"><span class="text_setup_button">${option10}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '24'" id ="option11"><span class="text_setup_button">${option11}</span></button></td>
+							<td><button data-dojo-type="dijit/form/ToggleButton" data-dojo-props="iconClass:'dijitCheckBoxIcon',value: '25'" id ="option12"><span class="text_setup_button">${option12}</span></button></td>
+							<td></td>
+						</tr>
+                        <td></td>
+						<!--	<td><button id="button_save_conf" data-dojo-attach-point="button_save_conf_functions" style="width:133px"><span class="text_setup_button">${save_setup}</span></button></td> -->
+
+						</tr>
+					</table>
+					</form>
+					<button id="button_save_conf" data-dojo-attach-point="button_save_conf_functions" style="width:133px; height: 40px; margin-left: 4px"><span class="text_setup_button">${save_setup}</span></button>
+				    <span id="save_conf_functions_respond" class="online_status_text"></span>
+
+
+					<hr></hr>
+
+					<table border="0" width="100%">
+					<tr>
+					<td>
+						<h2>${export_database}</h2>
+						<div>
+							<form method="post" action="export_database.php" id="myForm" enctype="multipart/form-data" >
+								 <!--  <input class="browseButton" name="uploadedfile" multiple="false" type="file" force="iframe" data-dojo-type="dojox.form.Uploader" label="Export Path" id="uploader"> -->
+								<!--   <input type="button" id="remBtn" label="Clear" data-dojo-type="dijit.form.Button" /> -->
+								   <input type="submit" label="${export_database_button}" data-dojo-type="dijit.form.Button"/>
+								 <!--  <div id="files" data-dojo-type="dojox.form.uploader.FileList" uploaderId="uploader"></div> -->
+							</form>
+						</div>
+						<h2>${import_database}</h2>
+						<div>
+							<form method="post" action="import_database.php" id="myForm2" enctype="multipart/form-data" >
+
+								   <input class="browseButton" name="uploadedfile2" multiple="false" type="file" force="iframe" data-dojo-type="dojox.form.Uploader" label="${select_sql_file_button}" id="uploader2">
+								<!--   <input type="button" id="remBtn2" label="Clear" data-dojo-type="dijit.form.Button" /> -->
+								   <input type="submit" label="${import_sql_file_button}" data-dojo-type="dijit.form.Button" />
+								   <div id="files2" data-dojo-type="dojox.form.uploader.FileList" uploaderId="uploader2"></div>
+
+							</form>
+						</div>
+						</td>
+							<!--<td style="margin-right: 23px; float:right; margin-top:150px"><button id="button_use_conf"  data-dojo-attach-point="button_use_conf"  style="width:133px; height: 40px;"><span class="text_setup_button">${use_setup}</span></button></td> -->
+						</tr>
+					</table>
+
+					</div> <!-- hidable content ends -->
+
+					<div id="pdf_upload">
+					<hr></hr>
+						<h2>${load_pdf}</h2>
+							<form method="post" action="upload_pdf.php" id="loadPdf" enctype="multipart/form-data" >
+								   <input class="browseButton" name="uploadedpdf" multiple="false" type="file" force="iframe" data-dojo-type="dojox.form.Uploader" label="${select_pdf_button}" id="upload_pdf">
+								   <b>${select_lang_folder}</b> <div id="lang_pdf_selection" class="lang_pdf_selection"></div>
+								   <div id="pdf" data-dojo-type="dojox.form.uploader.FileList" uploaderId="upload_pdf"></div>
+								   <input type="hidden" name="selected_lang" id="selected_lang" value=""/>
+								   <input type="submit" label="${upload_selected_pdf_button}" data-dojo-type="dijit.form.Button" />
+							</form>
+					</div>
+					<div id="set_upload">
+					<hr></hr>
+						<h2>${load_set}</h2>
+						<table border=0>
+						<tr><td>
+							<form method="post" action="upload_washing_set.php" id="loadSet" enctype="multipart/form-data" >
+								   <input class="browseButton" name="uploadedset" multiple="false" type="file" force="iframe" data-dojo-type="dojox.form.Uploader" label="${select_set_button}" id="upload_set">
+								   <div id="set" data-dojo-type="dojox.form.uploader.FileList" uploaderId="upload_set"></div>
+								   <input type="submit" label="${upload_selected_set_button}" data-dojo-type="dijit.form.Button" />
+							</form>
+							</td></tr>
+							<tr><td>
+								<iframe id="list_sql" src="../lib/Database/"  seamless scrolling="auto" height="330" width="780" ></iframe>
+							</td>
+						</table>
+					</div>
+
+					<div id="set_password">
+					<hr></hr>
+						<h2>${set_password}</h2>
+						<table>
+						<tr><td>
+						<button id="button_save_pass" data-dojo-attach-point="button_save_pass" style="width:133px; height: 40px; margin-left: 0px"><span class="text_setup_button">${save_password}</span></button>
+						</td><td>
+							<form id="SavePassForm" data-dojo-type="dijit/form/Form" data-dojo-id="SavePassForm" encType="multipart/form-data" action="" method="">
+								   <input id="password" style="width: 200px;" type="password" data-dojo-type="dijit/form/TextBox" /><br>${password_disabled}
+							</form>
+						</td></tr></table>
+					</div>
+
+					<div id="select_cards">
+					<hr></hr>
+						<h2>${select_io_cards_to_show}</h2>
+						<table>
+						<tr><td>
+						<button id="button_save_selections" data-dojo-attach-point="button_save_selections" style="width:133px; height: 40px; margin-left: 0px"><span class="text_setup_button">${save_selections}</span></button>
+						</td><td>
+							<form id="SaveSelectionsForm" data-dojo-type="dijit/form/Form" data-dojo-id="SaveSelectionsForm" encType="multipart/form-data" action="" method="">
+								<table>
+									<tr>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input1" /> <label for="radioOne"><b>${input_1}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input2" /> <label for="radioOne"><b>${input_2}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input3" /> <label for="radioOne"><b>${input_3}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input4" /> <label for="radioOne"><b>${input_4}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input5" /> <label for="radioOne"><b>${input_5}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="input6" /> <label for="radioOne"><b>${input_6}</b></label></td>
+									</tr>
+									<tr>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output1" /> <label for="radioOne"><b>${output_1}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output2" /> <label for="radioOne"><b>${output_2}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output3" /> <label for="radioOne"><b>${output_3}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output4" /> <label for="radioOne"><b>${output_4}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output5" /> <label for="radioOne"><b>${output_5}</b></label></td>
+										<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox" id="output6" /> <label for="radioOne"><b>${output_6}</b></label></td>
+									</tr>
+								</table>
+							</form>
+						</td></tr></table>
+					</div>
+
+					<div id="conf_ipcamera">
+					<hr></hr>
+						<h2>IP-Camera Config</h2>
+							<form id="SaveIpcameraConf" data-dojo-type="dijit/form/Form" data-dojo-id="SaveIpcameraConf" encType="multipart/form-data" action="" method="">
+								<table border="0" align="center">
+								<tr>
+								   <td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="camera_on" name="camera_status"  value="1"/> <label for="radioOne">On</label></td>
+								   <td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="camera_off" name="camera_status" value="0"/> <label for="radioOne">Off</label></td></tr><tr>
+								   <td>IP:</td><td><input id="camera_ip" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr><tr>
+								   <td>Port:</td><td><input id="camera_port" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr><tr>
+								   <td>Qualty:</td><td><input id="camera_quality" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr><tr>
+								   <td>Fps:</td><td><input id="camera_fps" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr><tr>
+								   <td>Width:</td><td><input id="camera_width" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr>
+								   <td>Height:</td><td><input id="camera_height" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td></tr>
+								</table>
+							</form>
+							<button id="button_save_ipconf" data-dojo-attach-point="button_save_ipconf" style="width:133px; height: 40px; margin-left: 0px"><span class="text_setup_button">Tallenna</span></button>
+					</div>
+
+					<div id="washcounters">
+					<hr></hr>
+						<h2>${washcounters_conf}</h2>
+						<table border=0>
+						<tr><td>
+							<form id="SaveWashcounterConf" data-dojo-type="dijit/form/Form" data-dojo-id="SaveWashcounterConf" encType="multipart/form-data" action="" method="">
+								<table>
+									<tr>
+									<!--	<td><input type="radio" data-dojo-type="dijit/form/RadioButton" id="daily" /> <label for="radioOne"><b>Daily</b></label></td> -->
+										<td><input type="radio" data-dojo-type="dijit/form/RadioButton" name="email_interval" value="0" id="weekly" /> <label for="radioOne"><b>${weekly}</b></label></td>
+										<td><input type="radio" data-dojo-type="dijit/form/RadioButton" name="email_interval" value="1" id="monthly" /> <label for="radioOne"><b>${monthly}</b></label></td>
+									</tr>
+								</table>
+							</form>
+						</td>
+						</tr>
+						<td><button id="button_save_washcounters_conf" data-dojo-attach-point="button_save_washcounters_conf" style="width:153px; height: 40px; margin-left: 4px;vertical-align: top;"><span class="text_setup_button">${save_setup}</span></button>
+						<button id="button_send_washcounters" data-dojo-attach-point="button_send_washcounters" style="width:153px; height: 40px; margin-left: 4px;vertical-align: top;"><span class="text_setup_button">${send_washcounts}</span></button>
+						<button id="button_sync_washcounters" data-dojo-attach-point="button_sync_washcounters" style="width:153px; height: 40px; margin-left: 4px;vertical-align: top;"><span class="text_setup_button">${save_washcounts_to_db}</span></button>
+						</td><td><span id="washcounters_result"></span></td></tr></table>
+					</div>
+					
+					<div id="email_settings">
+						<hr></hr>
+						<form id="EmailSettingsForm" data-dojo-type="dijit/form/Form" data-dojo-id="EmailSettingsForm" encType="multipart/form-data" action="" method="">
+						<table border="0" align="center">
+							<h2>${email_settings}</h2>
+							<tr><th style="width:100px;"></th><th></th><tr>
+							<tr id="station_data_row"><td><b>${station_data}<b></td><td><input id="station_data" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="email_to_row"><td><b>${to}</b></td><td><input id="email_to" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="email_to2_row"><td><b>${to2}</b></td><td><input id="email_to2" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+								<tr id="email_to3_row"><td><b>${to3}</b></td><td><input id="email_to3" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+							<tr><td><b>${cc}</b></td><td><input id="email_cc" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+							<tr><td><b>${cc2}</b></td><td><input id="email_cc2" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+							<tr><td><b>${cc3}</b></td><td><input id="email_cc3" style="width: 200px;" data-dojo-type="dijit/form/TextBox" /></td><tr>
+						</table>
+						</form>
+						<button id="button_save_email_settings" data-dojo-attach-point="button_save_email_settings" style="width:133px; height: 40px; margin-left: 4px"><span class="text_setup_button">${save_email_settins}</span></button>
+						
+					</div>
+				</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+</div>
+
+</div>

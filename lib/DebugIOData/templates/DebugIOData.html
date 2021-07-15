@@ -1,0 +1,95 @@
+<div class="${baseClass}">
+	<div id="maindiv_debugiodata">
+	
+	<table border="0"> 
+	<tr>
+	<td style="width: 50%;">
+	<table id="inputtable" style="visibility:visible;" border="0">
+	<h2 class="center">${device_speed}</h2> 
+			<tr><td class="headername_cell"><span class="headername"></span><td></td><td class="cell"><b>${speed} / Hz</b></td><td class="cell"><b>${npos} / cm</b></td><td class="cell"><b>${opos}</b></td></tr>
+			<tr><td><span class="headername">${top_brush}</span><td></td><td class="cell"><span id="Tbrush_EstSpd" style="color:green"></span><td class="cell"><span id="Tbrush_EstPos" style="color:orange"></span></td><td class="cell"><span id="topBrushPW"></span></td></tr>
+			<tr><td><span class="headername">${nozzle}</span><td><td class="cell"><span id="Nozzle_EstSpd" style="color:blue"></span></td><td class="cell"><span id="Nozzle_EstPos" style="color:purple"></span></td><td class="cell"><span id="nozzlePW"></span></td></tr>
+			<tr><td><span class="headername">${gantry}</span><td><td class="cell"><span id="Gantry_EstSpd" style="color:red"></span></td><td class="cell"><span id="Gantry_EstPos" style="color:violet"></span></td><td class="cell"><span id="gantryPW"></span></td></tr>
+	</table>
+	</td>
+	<td>
+	<table id="inputtable" style="visibility:visible;" border="0">
+	<h2 class="center">${brushes}</h2>
+			<tr><td class="headername_cell"><span class="headername"></span><td></td><td class="cell"><b>${power} / W</b></td><td class="cell"></td><td class="cell"></td></tr>
+			<tr><td><span class="headername">${topbrush}</span><td></td><td class="cell"><span id="Top_Brush_Power" style="color:green"></span><td class="cell"><span id="Tbrush_OrgPos"></span></td><td class="cell"><span id="Tbrush_EstPos"></span></td></tr>
+			<tr><td><span class="headername">${leftbrush}</span><td><td class="cell"><span id="Left_Brush_Power" style="color:blue"></span></td><td class="cell"><span id="Nozzle_OrgPos"></span></td><td class="cell"><span id="Nozzle_EstPos"></span></td></tr>
+			<tr><td><span class="headername">${rightbrush}</span><td><td class="cell"><span id="Right_Brush_Power" style="color:red"></span></td><td class="cell"><span id="Gantry_OrgPos"></span></td><td class="cell"><span id="Gantry_EstPos"></span></td></tr>	
+
+	</table>
+	</td>
+	<td>
+	<table id="inputtable" style="visibility:visible;" border="0">
+	<h2 class="center">${nozzles}</h2>
+			<tr><td class="headername_cell"><span class="headername"></span><td></td><td class="cell"><b>${angle}</b></td><td class="cell"></td><td class="cell"></td></tr>
+			<tr><td><span class="headername">${roofnozzle}</span><td></td><td class="cell"><span id="Nozzle_angle" style="color:green"></span><td class="cell"><span id="Nozzle_angle"></span></td><td class="cell"><span id="Tbrush_EstPos"></span></td></tr>
+			<tr><td><span class="headername"></span><td></td><td class="cell"><span id="Tbrush_EstSpd"></span><td class="cell"><span id="Tbrush_OrgPos"></span></td><td class="cell">&nbsp;<span id="Tbrush_EstPos"></span></td></tr>
+			<tr><td><span class="headername"></span><td></td><td class="cell"><span id="Tbrush_EstSpd"></span><td class="cell"><span id="Tbrush_OrgPos"></span></td><td class="cell">&nbsp;<span id="Tbrush_EstPos"></span></td></tr>
+			
+	</table>
+	</td>
+	</table>
+
+	<hr></hr>
+	<table id="charts" border="0">
+	<tr>
+	<td><div class="chart" data-dojo-attach-point="chartNode1" style="width:250px;height:200px;"></div></td>
+	<td><div class="chart" data-dojo-attach-point="chartNode2" style="width:250px;height:200px;"></div></td>
+	<td><div class="chart" data-dojo-attach-point="chartNode3" style="width:250px;height:200px;"></div></td>
+	<td><div class="chart" data-dojo-attach-point="chartNode4" style="width:250px;height:200px;"></div></td>
+	</tr>
+	</table>
+
+	
+	<table id="chart_controls">
+	<tr><td>
+	<div class="chart_button_start" style="visibility:visible" data-dojo-attach-point="start" title="Start charts"></div>
+	<div class="chart_button_stop" style="visibility:visible" data-dojo-attach-point="stop" title="Stop charts"></div>
+	</td></tr>
+	</table>
+
+	<!–– Scannerin data ja verkkojännite, updKHu --->
+	<table>
+	<div style="background-color:white">
+		<h2 id="scannerdata">Scanner Data</h2>
+		<tr>
+			<td id="scannererrors">Scanner errors:</td><td id="nozzlelevel" style="color:blue">Top Nozzle Level:</td><td id="brushlevel" style="color:green">Top Brush Level:</td>
+		</tr>
+		<tr>
+			<td id="vac">Vac:</td>
+		</tr>
+	</div>
+	</table>
+	<!--
+	<div id="ipcamera" style=${camera_visibility}>
+			<object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab" width=${camera_width} height=${camera_height} id="vlc" events="True">
+			   <param name="Src" value=${camera_ip} />
+			   <param name="ShowDisplay" value="True" />
+			   <param name="AutoLoop" value="False" />
+			   <param name="AutoPlay" value="True" />
+			   <embed id="vlcEmb" type="application/x-google-vlc-plugin" version="VideoLAN.VLCPlugin.2" autoplay="yes" loop="no" width=${camera_width} height=${camera_height} target=${camera_ip} ></embed>
+			</object>
+	</div>
+	-->
+	<!--
+	<iframe src="http://194.100.159.66:8100/control/faststream.jpg?stream=full" align="center" style="width:100%;height:768px" scrolling="no" frameborder="no" marginheight="0px"></iframe>
+	-->
+		<h2>${io1}</h2>
+			<div id="grid_card1" class="grid_IO_main"></div>
+		<h2>${io2}</h2>
+			<div id="grid_card2" class="grid_IO_main"></div>
+		<h2>${io3}</h2>
+			<div id="grid_card3" class="grid_IO_main"></div>
+		<h2>${io4}</h2>
+			<div id="grid_card4" class="grid_IO_main"></div>
+		<h2>${io5}</h2>
+			<div id="grid_card5" class="grid_IO_main"></div>
+		<h2>${io6}</h2>
+			<div id="grid_card6" class="grid_IO_main"></div>
+	</div>	
+
+</div>

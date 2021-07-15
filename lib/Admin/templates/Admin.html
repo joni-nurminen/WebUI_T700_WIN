@@ -1,0 +1,31 @@
+<div class="${baseClass}">
+
+<div id="maindiv_editmachinesetup">
+	<table id="maindiv_editmachinesetup_table" border ="0">
+	<tr>
+	<td>
+
+		<div class="draglistarea_orange" >
+			<h3>${accounts}</h3>
+				<div class="container"> 
+				<form action="Manage_accounts.php" method="post">
+					<table border="0" align="center">
+					<h2>${password}</h2> 
+						<tr><th style="width:100px;"></th><th>${password}</th><tr>
+						<tr><td><b>${admin}</b></td><td><input name="admin_pass" type="text"></td><tr>
+						<tr><td><b>${tm}</b></td><td><input  name="tm_pass" type="text"></td><tr>
+						<tr><td><b>${importer}</b></td><td><input name="importer_pass" type="text"></td><tr>
+						<tr><td><b>${operator}</b></td><td><input name="operator_pass" type="text"></td><tr>
+						<tr><td><b>${chain}</b></td><td><input name="chain_pass" type="text"></td><tr>
+					<!--	<tr><td><b>${wap}</b></td><td><input name="wap_pass" type="text"></td><tr> -->
+						<tr><td colspan="2"><button name="set_importer_pass" type="submit" value="${button}">${button}</button</td><tr>
+					</table>
+				</form>
+				</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+</div>
+
+</div>

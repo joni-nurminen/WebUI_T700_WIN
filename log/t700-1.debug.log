@@ -1,0 +1,424 @@
+Feb  1 08:49:05 TM101 syslogd 1.5.0: restart.
+Feb  1 08:49:05 TM101 crond[129]: crond 2.3.2 dillon, started, log level 8 
+Feb  1 08:49:06 TM101 sshd[152]: Server listening on 0.0.0.0 port 22.
+Feb  1 08:49:06 TM101 sshd[152]: Generating 768 bit RSA key.
+Feb  1 08:49:07 TM101 root: Variable FILESATEXECUTE=     36
+Feb  1 08:49:07 TM101 root: execute directory files(     36) are found.
+Feb  1 08:49:07 TM101 root: Variable FILESATUPDATE=      1
+Feb  1 08:49:07 TM101 root: execute directory files(      1) are found.
+Feb  1 08:49:07 TM101 root: RTC returned RWSEC0 =       1
+Feb  1 08:49:07 TM101 root: ==> READABLE-system.
+Feb  1 08:49:07 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Feb  1 2021-08:46:22.
+Feb  1 08:49:08 TM101 root: Starting sync_client(single)
+Feb  1 08:49:09 TM101 exbootd: exbootd SVN $Rev: 492 $ Jan  5 2017-16:40:57.
+Feb  1 08:49:09 TM101 exbootd: Child process created: 197 
+Feb  1 08:49:10 TM101 sshd[152]: RSA key generation complete.
+Feb  1 08:49:18 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Feb  1 08:49:24 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Feb  1 08:49:24 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)160 
+Feb  1 08:49:24 TM101 tammercontrol: TB VIRTUAL POS DIFFER, act:0 home:188 pulse:0 step:2 
+Feb  1 08:49:24 TM101 tammercontrol: TN VIRTUAL POS DIFFER, act:0 home:190 pulse:0 step:2 
+Feb  1 08:49:24 TM101 tammercontrol: ScanFuncs(0x0000): Scanner Debug variables initialized 
+Feb  1 08:49:24 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Feb  1 08:49:24 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Feb  1 08:49:25 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Feb  1 08:49:25 TM101 tammercontrol: HALLIVALO KYTKENTÄ pesuohjelma numeroon:32768 
+Feb  1 08:49:30 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 08:49:31 TM101 tammercontrol: Top nozzle rotating gear ratio i=165 Hz1800->Hz2970 step=3
+Feb  1 08:49:47 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Feb  1 08:49:47 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 
+Feb  1 10:04:45 TM101 DoSendMail: /mnt/ram/execute/DoSendMail DoSendMail v1.1 SVN $Rev: 1160 $  
+Feb  1 10:04:45 TM101 DoSendMail: valvomo@tammermatic.com found. 
+Feb  1 10:04:45 TM101 DoSendMail:  found. 
+Feb  1 10:04:45 TM101 DoSendMail: kh@tammermatic.fi found. 
+Feb  1 10:04:45 TM101 tammercontrol: BECKHOFF INPUTS ERR RESPONSE scan:0 reading:7 rbuff:0,0,0,0,0,0,0,0 
+Feb  1 10:04:45 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:04:45 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:04:46 TM101 DoSendMail: Success on sending EMAIL! 
+Feb  1 10:04:48 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:05:02 TM101 tammercontrol: Tilt overspeed: 358->332 (6)  ^M
+Feb  1 10:05:03 TM101 tammercontrol: Tilt overspeed: 0->338 (6)  ^M
+Feb  1 10:05:04 TM101 tammercontrol: Tilt overspeed: 347->20 (6)  ^M
+Feb  1 10:05:05 TM101 tammercontrol: Tilt overspeed: 3->24 (6)  ^M
+Feb  1 10:05:07 TM101 tammercontrol: Tilt overspeed: 8->348 (6)  ^M
+Feb  1 10:05:22 TM101 tammercontrol: Tilt overspeed: 349->328 (6)  ^M
+Feb  1 10:06:29 TM101 tammercontrol: Tilt overspeed: 208->186 (6)  ^M
+Feb  1 10:06:35 TM101 tammercontrol: Tilt overspeed: 195->219 (6)  ^M
+Feb  1 10:06:36 TM101 tammercontrol: Tilt overspeed: 219->195 (6)  ^M
+Feb  1 10:06:54 TM101 tammercontrol: Tilt overspeed: 204->183 (6)  ^M
+Feb  1 10:07:53 TM101 tammercontrol: RESET BUTTON PRESSED IN INOPERATIVE STATE 
+Feb  1 10:07:55 TM101 root: Shutting down sync_client(single)
+Feb  1 10:07:56 TM101 DoBootTo: /mnt/ram/execute/DoBootTo SVN $Rev: 491 $ Jan  5 2017-16:40:56.
+Feb  1 10:07:56 TM101 DoBootTo: Starting SYS procedure...
+Feb  1 10:07:56 TM101 DoBootTo: Starting phase:5 
+Feb  1 10:07:56 TM101 tammercontrol: ENTERING ClearOutputsFastOnShutDown()
+Feb  1 10:07:56 TM101 tammercontrol: BECKHOFF EXTOUT ERR RESPONSE reading:8 rbuff:0,0,0,0,0,0,0,0 
+Feb  1 10:07:56 TM101 tammercontrol: 260ms to 6 living childs left (child-223 just stopped).
+Feb  1 10:07:56 TM101 tammercontrol: 270ms to 5 living childs left (child-224 just stopped).
+Feb  1 10:07:56 TM101 tammercontrol: 270ms to 4 living childs left (child-221 just stopped).
+Feb  1 10:07:56 TM101 tammercontrol: 270ms to 3 living childs left (child-225 just stopped).
+Feb  1 10:07:56 TM101 tammercontrol: 270ms to 2 living childs left (child-226 just stopped).
+Feb  1 10:07:57 TM101 tammercontrol: 270ms to 1 living childs left (child-227 just stopped).
+Feb  1 10:07:57 TM101 tammercontrol: 270ms to 0 living childs left (child-222 just stopped).
+Feb  1 10:07:57 TM101 tammercontrol: G->Shuttingdown=29 G->SaveToDisk=255
+Feb  1 10:07:58 TM101 tammercontrol: It took 270ms to stop and write cf-card.
+Feb  1 10:07:58 TM101 root: Variable FILESATEXECUTE=     36
+Feb  1 10:07:58 TM101 root: execute directory files(     36) are found.
+Feb  1 10:07:58 TM101 root: Variable FILESATUPDATE=      0
+Feb  1 10:07:58 TM101 root: execute directory files(      0) are missing.
+Feb  1 10:07:58 TM101 root: RTC returned RWSEC0 =       1
+Feb  1 10:07:58 TM101 root: ==> READABLE-system.
+Feb  1 10:07:58 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Feb  1 2021-08:46:22.
+Feb  1 10:07:59 TM101 exbootd: Waiting for restarting ...
+Feb  1 10:07:59 TM101 root: Starting sync_client(single)
+Feb  1 10:08:10 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Feb  1 10:08:15 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Feb  1 10:08:15 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)160 
+Feb  1 10:08:15 TM101 tammercontrol: TB VIRTUAL POS DIFFER, act:0 home:188 pulse:0 step:2 
+Feb  1 10:08:15 TM101 tammercontrol: ScanFuncs(0x0000): Scanner Debug variables initialized 
+Feb  1 10:08:15 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Feb  1 10:08:15 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Feb  1 10:08:16 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Feb  1 10:08:17 TM101 tammercontrol: HALLIVALO KYTKENTÄ pesuohjelma numeroon:32768 
+Feb  1 10:08:17 TM101 tammercontrol: BECKHOFF INPUTS ERR RESPONSE scan:0 reading:0 rbuff:0,0,0,0,20,0,30,0 
+Feb  1 10:08:22 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:08:22 TM101 tammercontrol: Top nozzle rotating gear ratio i=165 Hz1800->Hz2970 step=3
+Feb  1 10:08:48 TM101 tammercontrol: TN VIRTUAL POS DIFFER, act:178 home:190 pulse:182 step:3 
+Feb  1 10:09:00 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Feb  1 10:09:01 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 
+Feb  1 10:11:20 TM101 tammercontrol: AUTHORISED TIME:0 s 
+Feb  1 10:11:21 TM101 tammercontrol: TelcoLC Gain Control data:0xC000 retval:0x0000 
+Feb  1 10:11:22 TM101 tammercontrol: Initialize_for_wash() nr:24 Scanner Active! 
+Feb  1 10:11:22 TM101 tammercontrol: sub.c Initialize_for_wash() photobar=23 pixel from ground. Mask=3 MSB bits. 
+Feb  1 10:11:24 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:11:25 TM101 tammercontrol: TelcoLC Levels bar:24 nozzle:34 tbrush:30 wall:15 
+Feb  1 10:11:25 TM101 tammercontrol: TelcoLC 192 straigth beams in system pix: 150x400 Ext:255 2cmPixsize:1 
+Feb  1 10:11:25 TM101 tammercontrol: ScanFuncs(0xC1EA): photobar 24 pixel from ground, nozzle offset 6 cm Ext 0 
+Feb  1 10:11:25 TM101 tammercontrol: SCANNER VAN HEIGTH LEVEL trglevel:86 pixels 2cmPix:1 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:0 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:1 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:2 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:3 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:4 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:5 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:6 
+Feb  1 10:11:28 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:7 
+Feb  1 10:11:28 TM101 tammercontrol: Scan 2 cm upper: 0xFF 0xFF 0xFF 0x9F 
+Feb  1 10:11:36 TM101 tammercontrol: Tilt overspeed: 128->107 (512)  ^M
+Feb  1 10:11:36 TM101 tammercontrol: Tilt overspeed: 107->134 (512)  ^M
+Feb  1 10:11:36 TM101 tammercontrol: Tilt overspeed: 134->112 (512)  ^M
+Feb  1 10:11:40 TM101 tammercontrol: TOP NOZZLE RAPID COLLISION suutin_turvarajat:1 pyoritys:1 step:512 
+Feb  1 10:11:52 TM101 tammercontrol: Tilt overspeed: 168->147 (516)  ^M
+Feb  1 10:11:53 TM101 tammercontrol: Tilt overspeed: 147->178 (516)  ^M
+Feb  1 10:11:53 TM101 tammercontrol: Tilt overspeed: 181->146 (516)  ^M
+Feb  1 10:11:53 TM101 tammercontrol: Tilt overspeed: 146->183 (516)  ^M
+Feb  1 10:11:53 TM101 tammercontrol: Tilt overspeed: 168->147 (516)  ^M
+Feb  1 10:11:53 TM101 tammercontrol: TOP NOZZLE RAPID COLLISION suutin_turvarajat:1 pyoritys:2 step:516 
+Feb  1 10:11:57 TM101 DoSendMail: /mnt/ram/execute/DoSendMail DoSendMail v1.1 SVN $Rev: 1160 $  
+Feb  1 10:11:57 TM101 tammercontrol: INTERRUPTED WASH COUNTER +1 addr:0x4C70 data:696 poletti:24 
+Feb  1 10:11:57 TM101 DoSendMail: valvomo@tammermatic.com found. 
+Feb  1 10:11:57 TM101 DoSendMail:  found. 
+Feb  1 10:11:57 TM101 DoSendMail: kh@tammermatic.fi found. 
+Feb  1 10:11:57 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:11:57 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:11:58 TM101 tammercontrol: CONSUMPTION 0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0 
+Feb  1 10:11:58 TM101 tammercontrol: CONSUMPTION 8:40 9:0 10:0 11:0 12:14 13:12 14:0 15:0 
+Feb  1 10:11:58 TM101 tammercontrol: CONSUMPTION 16:0 17:0 18:0 19:0 20:0 21:0 22:0 23:0 24:0 25:0 
+Feb  1 10:11:58 TM101 DoSendMail: Success on sending EMAIL! 
+Feb  1 10:12:00 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:12:18 TM101 tammercontrol: RESET BUTTON PRESSED IN INOPERATIVE STATE 
+Feb  1 10:12:19 TM101 exbootd: case '2'. Restarting tammercontrol.
+Feb  1 10:12:20 TM101 root: Shutting down sync_client(single)
+Feb  1 10:12:21 TM101 DoBootTo: /mnt/ram/execute/DoBootTo SVN $Rev: 491 $ Jan  5 2017-16:40:56.
+Feb  1 10:12:21 TM101 DoBootTo: Starting SYS procedure...
+Feb  1 10:12:21 TM101 DoBootTo: Starting phase:5 
+Feb  1 10:12:21 TM101 tammercontrol: ENTERING ClearOutputsFastOnShutDown()
+Feb  1 10:12:21 TM101 tammercontrol: BECKHOFF EXTOUT ERR RESPONSE reading:8 rbuff:0,0,0,0,0,0,0,0 
+Feb  1 10:12:21 TM101 tammercontrol: 260ms to 6 living childs left (child-5982 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 5 living childs left (child-5983 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 4 living childs left (child-5986 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 3 living childs left (child-5980 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 2 living childs left (child-5985 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 1 living childs left (child-5981 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: 270ms to 0 living childs left (child-5987 just stopped).
+Feb  1 10:12:21 TM101 tammercontrol: G->Shuttingdown=29 G->SaveToDisk=255
+Feb  1 10:12:22 TM101 tammercontrol: It took 270ms to stop and write cf-card.
+Feb  1 10:12:23 TM101 root: Variable FILESATEXECUTE=     36
+Feb  1 10:12:23 TM101 root: execute directory files(     36) are found.
+Feb  1 10:12:23 TM101 root: Variable FILESATUPDATE=      0
+Feb  1 10:12:23 TM101 root: execute directory files(      0) are missing.
+Feb  1 10:12:23 TM101 root: RTC returned RWSEC0 =       1
+Feb  1 10:12:23 TM101 root: ==> READABLE-system.
+Feb  1 10:12:23 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Feb  1 2021-08:46:22.
+Feb  1 10:12:24 TM101 exbootd: Waiting for restarting ...
+Feb  1 10:12:24 TM101 root: Starting sync_client(single)
+Feb  1 10:12:35 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Feb  1 10:12:40 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Feb  1 10:12:40 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)160 
+Feb  1 10:12:40 TM101 tammercontrol: TB VIRTUAL POS DIFFER, act:0 home:188 pulse:0 step:2 
+Feb  1 10:12:40 TM101 tammercontrol: ScanFuncs(0x0000): Scanner Debug variables initialized 
+Feb  1 10:12:40 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Feb  1 10:12:40 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Feb  1 10:12:41 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Feb  1 10:12:41 TM101 tammercontrol: HALLIVALO KYTKENTÄ pesuohjelma numeroon:32768 
+Feb  1 10:12:47 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:12:47 TM101 tammercontrol: Top nozzle rotating gear ratio i=165 Hz1800->Hz2970 step=3
+Feb  1 10:13:12 TM101 tammercontrol: TN VIRTUAL POS DIFFER, act:149 home:190 pulse:154 step:3 
+Feb  1 10:13:36 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Feb  1 10:13:36 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 
+Feb  1 10:13:58 TM101 tammercontrol: AUTHORISED TIME:0 s 
+Feb  1 10:13:59 TM101 tammercontrol: TelcoLC Gain Control data:0xC000 retval:0x0000 
+Feb  1 10:13:59 TM101 tammercontrol: Initialize_for_wash() nr:24 Scanner Active! 
+Feb  1 10:13:59 TM101 tammercontrol: sub.c Initialize_for_wash() photobar=23 pixel from ground. Mask=3 MSB bits. 
+Feb  1 10:14:01 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:14:02 TM101 tammercontrol: TelcoLC Levels bar:24 nozzle:34 tbrush:30 wall:15 
+Feb  1 10:14:02 TM101 tammercontrol: TelcoLC 192 straigth beams in system pix: 150x400 Ext:255 2cmPixsize:1 
+Feb  1 10:14:02 TM101 tammercontrol: ScanFuncs(0xC1EA): photobar 24 pixel from ground, nozzle offset 6 cm Ext 0 
+Feb  1 10:14:02 TM101 tammercontrol: SCANNER VAN HEIGTH LEVEL trglevel:86 pixels 2cmPix:1 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:0 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:1 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:2 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:3 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:4 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:5 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:6 
+Feb  1 10:14:05 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:7 
+Feb  1 10:14:05 TM101 tammercontrol: Scan 2 cm upper: 0xFF 0xFF 0xFF 0x9F 
+Feb  1 10:14:06 TM101 tammercontrol: Tilt overspeed: 238->216 (504)  ^M
+Feb  1 10:14:06 TM101 tammercontrol: TOP NOZZLE RAPID COLLISION suutin_turvarajat:1 pyoritys:1 step:504 
+Feb  1 10:14:06 TM101 tammercontrol: Tilt overspeed: 201->224 (504)  ^M
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:12 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:13 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:14 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:15 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:16 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:17 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:18 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:19 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:20 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:21 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:22 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:23 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: KS PULSSI TIMEOUT 10msTicker:73 alkuaika:49 maxaika:23 Hz:700 suunta:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:25 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:26 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:27 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:28 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:29 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:30 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:31 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:32 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:33 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:34 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:35 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:36 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:37 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:38 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:39 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:40 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:41 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:42 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:43 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:44 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:45 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:46 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:47 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:48 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:49 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:50 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:51 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:52 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:53 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:54 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:55 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:56 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:57 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:58 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:59 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:60 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:61 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:62 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:63 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:64 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:65 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:66 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:67 limit:11 pos:106 dir:3
+Feb  1 10:14:07 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:68 limit:11 pos:106 dir:3
+Feb  1 10:14:10 TM101 tammercontrol: INTERRUPTED WASH COUNTER +1 addr:0x4C70 data:697 poletti:24 
+Feb  1 10:14:10 TM101 DoSendMail: /mnt/ram/execute/DoSendMail DoSendMail v1.1 SVN $Rev: 1160 $  
+Feb  1 10:14:10 TM101 DoSendMail: valvomo@tammermatic.com found. 
+Feb  1 10:14:10 TM101 DoSendMail:  found. 
+Feb  1 10:14:10 TM101 DoSendMail: kh@tammermatic.fi found. 
+Feb  1 10:14:10 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:14:10 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:14:11 TM101 tammercontrol: CONSUMPTION 0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0 
+Feb  1 10:14:11 TM101 tammercontrol: CONSUMPTION 8:0 9:0 10:0 11:0 12:5 13:4 14:0 15:0 
+Feb  1 10:14:11 TM101 tammercontrol: CONSUMPTION 16:0 17:0 18:0 19:0 20:0 21:0 22:0 23:0 24:0 25:0 
+Feb  1 10:14:11 TM101 DoSendMail: Success on sending EMAIL! 
+Feb  1 10:14:12 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:15:30 TM101 tammercontrol: RESET BUTTON PRESSED IN INOPERATIVE STATE 
+Feb  1 10:15:32 TM101 exbootd: case '2'. Restarting tammercontrol.
+Feb  1 10:15:33 TM101 root: Shutting down sync_client(single)
+Feb  1 10:15:33 TM101 DoBootTo: /mnt/ram/execute/DoBootTo SVN $Rev: 491 $ Jan  5 2017-16:40:56.
+Feb  1 10:15:33 TM101 DoBootTo: Starting SYS procedure...
+Feb  1 10:15:33 TM101 DoBootTo: Starting phase:5 
+Feb  1 10:15:33 TM101 tammercontrol: ENTERING ClearOutputsFastOnShutDown()
+Feb  1 10:15:33 TM101 tammercontrol: BECKHOFF EXTOUT ERR RESPONSE reading:8 rbuff:0,0,0,0,0,0,0,0 
+Feb  1 10:15:33 TM101 tammercontrol: 260ms to 6 living childs left (child-8739 just stopped).
+Feb  1 10:15:33 TM101 tammercontrol: 270ms to 5 living childs left (child-8737 just stopped).
+Feb  1 10:15:33 TM101 tammercontrol: 270ms to 4 living childs left (child-8740 just stopped).
+Feb  1 10:15:34 TM101 tammercontrol: 270ms to 3 living childs left (child-8741 just stopped).
+Feb  1 10:15:34 TM101 tammercontrol: 270ms to 2 living childs left (child-8742 just stopped).
+Feb  1 10:15:34 TM101 tammercontrol: 270ms to 1 living childs left (child-8743 just stopped).
+Feb  1 10:15:34 TM101 tammercontrol: 270ms to 0 living childs left (child-8738 just stopped).
+Feb  1 10:15:34 TM101 tammercontrol: G->Shuttingdown=29 G->SaveToDisk=255
+Feb  1 10:15:35 TM101 tammercontrol: It took 270ms to stop and write cf-card.
+Feb  1 10:15:35 TM101 root: Variable FILESATEXECUTE=     36
+Feb  1 10:15:35 TM101 root: execute directory files(     36) are found.
+Feb  1 10:15:36 TM101 root: Variable FILESATUPDATE=      0
+Feb  1 10:15:36 TM101 root: execute directory files(      0) are missing.
+Feb  1 10:15:36 TM101 root: RTC returned RWSEC0 =       1
+Feb  1 10:15:36 TM101 root: ==> READABLE-system.
+Feb  1 10:15:36 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Feb  1 2021-08:46:22.
+Feb  1 10:15:36 TM101 exbootd: Waiting for restarting ...
+Feb  1 10:15:36 TM101 root: Starting sync_client(single)
+Feb  1 10:15:47 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Feb  1 10:15:53 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Feb  1 10:15:53 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)160 
+Feb  1 10:15:53 TM101 tammercontrol: TB VIRTUAL POS DIFFER, act:0 home:188 pulse:0 step:2 
+Feb  1 10:15:53 TM101 tammercontrol: ScanFuncs(0x0000): Scanner Debug variables initialized 
+Feb  1 10:15:53 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Feb  1 10:15:53 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Feb  1 10:15:53 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Feb  1 10:15:54 TM101 tammercontrol: HALLIVALO KYTKENTÄ pesuohjelma numeroon:32768 
+Feb  1 10:15:59 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:15:59 TM101 tammercontrol: Top nozzle rotating gear ratio i=165 Hz1800->Hz2970 step=3
+Feb  1 10:16:18 TM101 tammercontrol: TN VIRTUAL POS DIFFER, act:79 home:190 pulse:82 step:3 
+Feb  1 10:16:34 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Feb  1 10:16:34 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 
+Feb  1 10:16:41 TM101 tammercontrol: AUTHORISED TIME:0 s 
+Feb  1 10:16:43 TM101 tammercontrol: TelcoLC Gain Control data:0xC000 retval:0x0000 
+Feb  1 10:16:43 TM101 tammercontrol: Initialize_for_wash() nr:24 Scanner Active! 
+Feb  1 10:16:43 TM101 tammercontrol: sub.c Initialize_for_wash() photobar=23 pixel from ground. Mask=3 MSB bits. 
+Feb  1 10:16:45 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:16:46 TM101 tammercontrol: TelcoLC Levels bar:24 nozzle:34 tbrush:30 wall:15 
+Feb  1 10:16:46 TM101 tammercontrol: TelcoLC 192 straigth beams in system pix: 150x400 Ext:255 2cmPixsize:1 
+Feb  1 10:16:46 TM101 tammercontrol: ScanFuncs(0xC1EA): photobar 24 pixel from ground, nozzle offset 6 cm Ext 0 
+Feb  1 10:16:46 TM101 tammercontrol: SCANNER VAN HEIGTH LEVEL trglevel:86 pixels 2cmPix:1 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:0 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:1 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:2 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:3 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:4 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:5 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:6 
+Feb  1 10:16:49 TM101 tammercontrol: Scan temp2:0x00FFFF shift2:0 data3:FF i:7 
+Feb  1 10:16:49 TM101 tammercontrol: Scan 2 cm upper: 0xFF 0xFF 0xFF 0x9F 
+Feb  1 10:16:50 TM101 tammercontrol: Tilt overspeed: 212->180 (504)  ^M
+Feb  1 10:16:50 TM101 tammercontrol: Tilt overspeed: 180->217 (504)  ^M
+Feb  1 10:16:50 TM101 tammercontrol: Tilt overspeed: 217->168 (504)  ^M
+Feb  1 10:16:50 TM101 tammercontrol: Tilt overspeed: 168->196 (504)  ^M
+Feb  1 10:16:50 TM101 tammercontrol: TOP NOZZLE RAPID COLLISION suutin_turvarajat:1 pyoritys:1 step:504 
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:12 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:13 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:14 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:15 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:16 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:17 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:18 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:19 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:20 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:21 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:22 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:23 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: KS PULSSI TIMEOUT 10msTicker:73 alkuaika:49 maxaika:23 Hz:700 suunta:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:25 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:26 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:27 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:28 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:29 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:30 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:31 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:32 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:33 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:34 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:35 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:36 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:37 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:38 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:39 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:40 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:41 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:42 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:43 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:44 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:45 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:46 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:47 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:48 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:49 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:50 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:51 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:52 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:53 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:54 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:55 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:56 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:57 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:58 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:59 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:60 limit:11 pos:94 dir:3
+Feb  1 10:16:51 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:61 limit:11 pos:94 dir:3
+Feb  1 10:16:52 TM101 tammercontrol: TN LIFTPULSE OVERTIME, Hz:200 time:62 limit:11 pos:94 dir:3
+Feb  1 10:16:54 TM101 DoSendMail: /mnt/ram/execute/DoSendMail DoSendMail v1.1 SVN $Rev: 1160 $  
+Feb  1 10:16:54 TM101 tammercontrol: INTERRUPTED WASH COUNTER +1 addr:0x4C70 data:698 poletti:24 
+Feb  1 10:16:54 TM101 DoSendMail: valvomo@tammermatic.com found. 
+Feb  1 10:16:54 TM101 DoSendMail:  found. 
+Feb  1 10:16:54 TM101 DoSendMail: kh@tammermatic.fi found. 
+Feb  1 10:16:54 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:16:54 TM101 DoSendMail: EINPROGRESS in connect() - selecting 
+Feb  1 10:16:55 TM101 tammercontrol: CONSUMPTION 0:0 1:0 2:0 3:0 4:0 5:0 6:0 7:0 
+Feb  1 10:16:55 TM101 tammercontrol: CONSUMPTION 8:0 9:0 10:0 11:0 12:7 13:5 14:0 15:0 
+Feb  1 10:16:55 TM101 tammercontrol: CONSUMPTION 16:0 17:0 18:0 19:0 20:0 21:0 22:0 23:0 24:0 25:0 
+Feb  1 10:16:55 TM101 DoSendMail: Success on sending EMAIL! 
+Feb  1 10:16:57 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:17:02 TM101 tammercontrol: RESET BUTTON PRESSED IN INOPERATIVE STATE 
+Feb  1 10:17:04 TM101 exbootd: case '2'. Restarting tammercontrol.
+Feb  1 10:17:05 TM101 root: Shutting down sync_client(single)
+Feb  1 10:17:05 TM101 DoBootTo: /mnt/ram/execute/DoBootTo SVN $Rev: 491 $ Jan  5 2017-16:40:56.
+Feb  1 10:17:05 TM101 DoBootTo: Starting SYS procedure...
+Feb  1 10:17:05 TM101 DoBootTo: Starting phase:5 
+Feb  1 10:17:05 TM101 tammercontrol: ENTERING ClearOutputsFastOnShutDown()
+Feb  1 10:17:05 TM101 tammercontrol: BECKHOFF EXTOUT ERR RESPONSE reading:8 rbuff:0,0,0,0,0,0,0,0 
+Feb  1 10:17:05 TM101 tammercontrol: 260ms to 6 living childs left (child-10750 just stopped).
+Feb  1 10:17:05 TM101 tammercontrol: 270ms to 5 living childs left (child-10751 just stopped).
+Feb  1 10:17:05 TM101 tammercontrol: 270ms to 4 living childs left (child-10748 just stopped).
+Feb  1 10:17:05 TM101 tammercontrol: 270ms to 3 living childs left (child-10752 just stopped).
+Feb  1 10:17:05 TM101 tammercontrol: 270ms to 2 living childs left (child-10753 just stopped).
+Feb  1 10:17:06 TM101 tammercontrol: 270ms to 1 living childs left (child-10749 just stopped).
+Feb  1 10:17:06 TM101 tammercontrol: 270ms to 0 living childs left (child-10754 just stopped).
+Feb  1 10:17:06 TM101 tammercontrol: G->Shuttingdown=29 G->SaveToDisk=255
+Feb  1 10:17:06 TM101 tammercontrol: It took 270ms to stop and write cf-card.
+Feb  1 10:17:07 TM101 root: Variable FILESATEXECUTE=     36
+Feb  1 10:17:07 TM101 root: execute directory files(     36) are found.
+Feb  1 10:17:07 TM101 root: Variable FILESATUPDATE=      0
+Feb  1 10:17:07 TM101 root: execute directory files(      0) are missing.
+Feb  1 10:17:08 TM101 root: RTC returned RWSEC0 =       1
+Feb  1 10:17:08 TM101 root: ==> READABLE-system.
+Feb  1 10:17:08 TM101 tammercontrol: tammermatic.c $Rev: 1541 $ Feb  1 2021-08:46:22.
+Feb  1 10:17:08 TM101 exbootd: Waiting for restarting ...
+Feb  1 10:17:08 TM101 root: Starting sync_client(single)
+Feb  1 10:17:19 TM101 tammercontrol: Initialize_for_startup(): Scanner Active! 
+Feb  1 10:17:24 TM101 tammercontrol: Initialize_for_startup(): Digital potentiometers for Inverter brush control tb:255 lb:255 rb:255 VAC:98 
+Feb  1 10:17:24 TM101 tammercontrol: KONEKORKEUDET - 30 cm: (tb)158 (tn)160 
+Feb  1 10:17:24 TM101 tammercontrol: TB VIRTUAL POS DIFFER, act:0 home:188 pulse:0 step:2 
+Feb  1 10:17:25 TM101 tammercontrol: ScanFuncs(0x0000): Scanner Debug variables initialized 
+Feb  1 10:17:25 TM101 tammercontrol: KS pyoritys suunta1 max:106 astetta
+Feb  1 10:17:25 TM101 tammercontrol: KS pyoritys suunta2 max:40 astetta
+Feb  1 10:17:25 TM101 tammercontrol: CONSUMPTION COUNTERS CLEARED AT STARTUP, step:1 
+Feb  1 10:17:26 TM101 tammercontrol: HALLIVALO KYTKENTÄ pesuohjelma numeroon:32768 
+Feb  1 10:17:31 TM101 tammercontrol: sub.c  ram_save_config(2); G->ExternallyRequestedBoot=0 ...SAVED TO RAM 
+Feb  1 10:17:31 TM101 tammercontrol: Top nozzle rotating gear ratio i=165 Hz1800->Hz2970 step=3
+Feb  1 10:17:51 TM101 tammercontrol: TN VIRTUAL POS DIFFER, act:90 home:190 pulse:94 step:3 
+Feb  1 10:18:08 TM101 tammercontrol: MAX AUTHORISED TIME:0 s 
+Feb  1 10:18:09 TM101 tammercontrol: TelcoLC Initialization data:0x210A retval:0x0000 

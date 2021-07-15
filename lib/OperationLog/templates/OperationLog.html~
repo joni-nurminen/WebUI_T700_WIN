@@ -1,0 +1,5 @@
+<div class="${baseClass}">
+	<div id="maindiv_operationlog">
+		<h1>OperationLog. Tämä on modulina</h1>
+	</div>
+</div>

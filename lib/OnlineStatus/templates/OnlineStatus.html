@@ -1,0 +1,86 @@
+<div class="${baseClass}">
+
+<!--
+    <script langauge="javascript">
+            var counter = 0;
+            window.setInterval("refreshDiv()", 5000);
+            function refreshDiv(){
+                counter = counter + 1;
+                document.getElementById("test").innerHTML = "Testing " + counter;
+            }
+        </script>
+-->
+
+<div id="maindiv_onlinestatus">
+	<table id="maindiv_onlinestatus_table" border ="0">
+	<tr>
+	<td width="100%">
+		<div class="draglistarea_orange" >
+		<div class="master_slave_button" style="visibility:hidden"  id="button_master" data-dojo-attach-point="button_master"><span class="text_slave_master">T1</span></div>
+		<div class="master_slave_button" style="visibility:hidden"  id="button_slave" data-dojo-attach-point="button_slave"><span class="text_slave_master">T2</span></div>
+			<h3>${online_status_header}</h3>
+
+			<div class="clearBoth" />
+				<div class="container">
+					<table border="0" width="100%">
+						<tr>
+							<td>
+								<div id="clockCtr" class="clockCtr"></div>
+								<br>
+								Version :<span id="version" class="online_status_text"></span>
+                                <!-- NOTE: Change class="online_status_text_red -> class="online_status_text(_blue)(_green)(_red)(none) -->
+								<span id="version" class="online_status_text"> WinWebGUI <b>v1.2</b><b></b></span>
+								<br>
+								<span id="ifsf_version_text">Ifsf version :<span id="ifsf_version" class="online_status_text"></span><br></span>
+
+								IP :<span id="ip" class="online_status_text"></span>
+								<br>
+								${logged_user} <span id="user" class="online_status_text"></span>
+								<br>
+								${operation_mode} <span id="operation_mode" class="online_status_text"></span>
+								<br>
+								${washing_time} <span id="washing_time" class="online_status_text"></span>
+								<!-- Poistettu turhana updKHu v4.8 <br>
+								${program_line_number}  <span id="line_number" class="online_status_text"></span> -->
+								<br>
+								${program_number}  <span id="program_number" class="online_status_text_green"></span>
+								<br>
+								${message} <span id="bb_message" class="online_status_text_message"></span>
+							</td>
+							<td>
+								<div id="" class="image_area">
+									<div id="scanner_image2" class="scanner_image2"></div>
+									<div id="scanner_image" class="scanner_image"></div>
+								<!--	<img id="test" class="test" src="" width="300" height="100"> -->
+								</div>
+							</td>
+							<td valign="top">
+								<div id="lang_selection" class="lang_selection"></div>
+								<br><br><br>
+								<a href="index.php?status=logout" style="text-decoration: none; float:right; font-weight:bold;">${log_out}</a>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div id="grid_running_work" class="grid_running_work"></div>
+					<div style="float: left">
+						<div id="button_continue" class="prog_button_start_yel" style="visibility:hidden"  data-dojo-attach-point="continue_prog" title="Continue Program"></div>
+						<div id="button_stop" class="prog_button_stop" style="visibility:visible"  data-dojo-attach-point="stop" title="Stop program"></div>
+						<div id="button_pause" class="prog_button_pause" style="visibility:visible"  data-dojo-attach-point="pause" title="Pause program"></div>
+					</div>
+				</div>
+		</div>
+	</td>
+	<!--
+	<td>
+		<div class="prog_button_start" style="visibility:visible"  data-dojo-attach-point="start" title="Start Program"></div>
+		<br class="clearBoth" />
+		<div class="prog_button_stop" style="visibility:visible"  data-dojo-attach-point="stop" title="Stop program"></div>
+		<br class="clearBoth" />
+		<div class="prog_button_pause" style="visibility:visible"  data-dojo-attach-point="pause" title="Pause program"></div>
+	</td>
+	-->
+	</tr>
+	</table>
+</div>
+</div>
